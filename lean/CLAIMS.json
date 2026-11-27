@@ -1,0 +1,4956 @@
+{
+  "version": "1.00",
+  "project": "SmaleRate",
+  "namespace": "SmaleRate.Paper",
+  "counts": {
+    "PROVED": 160,
+    "OPEN": 34,
+    "PROVED-FROM-CITED": 60,
+    "CITED": 5,
+    "PROVED-GIVEN SmaleRate.Background.JordanCurveFact": 4,
+    "PROVED-GIVEN SmaleRate.Background.CoefficientUpperFact": 2,
+    "PROVED-GIVEN SmaleRate.Background.CoefficientUpperFact, SmaleRate.Background.JordanCurveFact": 26,
+    "NOT-FORMALIZED": 3
+  },
+  "claims": [
+    {
+      "name": "minimum_attained",
+      "doc": "minimum_attained.",
+      "line": 76,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.minimum_attained",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "critical_nonzero",
+      "doc": "critical_nonzero.",
+      "line": 82,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.critical_nonzero",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "critical_ratio_norm_formula",
+      "doc": "critical_ratio_norm_formula.",
+      "line": 87,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.critical_ratio_norm_formula",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "s_nonneg",
+      "doc": "s_nonneg.",
+      "line": 92,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.s_nonneg",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "s_le_ratio",
+      "doc": "s_le_ratio.",
+      "line": 96,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.s_le_ratio",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "scalar_invariance",
+      "doc": "scalar_invariance.",
+      "line": 101,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.scalar_invariance",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "zero_critical_value",
+      "doc": "zero_critical_value.",
+      "line": 109,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.zero_critical_value",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "critical_value_normalization",
+      "doc": "critical_value_normalization.",
+      "line": 114,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.critical_value_normalization",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "kd_finite",
+      "doc": "kd_finite.",
+      "line": 121,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.kd_finite",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "smale_bound",
+      "doc": "smale_bound.",
+      "line": 125,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.smale_bound",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "small_degrees",
+      "doc": "small_degrees.",
+      "line": 129,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.small_degrees",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "small_degrees_two_three",
+      "doc": "small_degrees_two_three.",
+      "line": 134,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.small_degrees_two_three",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "counterexample_exists",
+      "doc": "counterexample_exists.",
+      "line": 139,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.counterexample_exists",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "counterexample_explicit_degree",
+      "doc": "counterexample_explicit_degree.",
+      "line": 143,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.counterexample_explicit_degree",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext",
+        "sorryAx"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "OPEN"
+    },
+    {
+      "name": "jatar_ng_lower",
+      "doc": "jatar_ng_lower.",
+      "line": 147,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.jatar_ng_lower",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "kd_monotone",
+      "doc": "kd_monotone.",
+      "line": 151,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.kd_monotone",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "kd_limit_and_sup",
+      "doc": "kd_limit_and_sup.",
+      "line": 155,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.kd_limit_and_sup",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "earlier_bounds",
+      "doc": "earlier_bounds.",
+      "line": 159,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.earlier_bounds",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext",
+        "sorryAx"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "OPEN"
+    },
+    {
+      "name": "crane_bound",
+      "doc": "crane_bound.",
+      "line": 165,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.crane_bound",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext",
+        "sorryAx"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "OPEN"
+    },
+    {
+      "name": "expanded_lower_bound",
+      "doc": "expanded_lower_bound.",
+      "line": 169,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.expanded_lower_bound",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext",
+        "sorryAx"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "OPEN"
+    },
+    {
+      "name": "expanded_upper_bound",
+      "doc": "expanded_upper_bound.",
+      "line": 173,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.expanded_upper_bound",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext",
+        "sorryAx"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "OPEN"
+    },
+    {
+      "name": "expanded_crossover",
+      "doc": "expanded_crossover.",
+      "line": 178,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.expanded_crossover",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "elliptic_integrable",
+      "doc": "elliptic_integrable.",
+      "line": 188,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.elliptic_integrable",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.dlmf_19_9_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED-FROM-CITED"
+    },
+    {
+      "name": "elliptic_positive",
+      "doc": "elliptic_positive.",
+      "line": 194,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.elliptic_positive",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.dlmf_19_9_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED-FROM-CITED"
+    },
+    {
+      "name": "elliptic_increasing",
+      "doc": "elliptic_increasing.",
+      "line": 199,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.elliptic_increasing",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.dlmf_19_9_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED-FROM-CITED"
+    },
+    {
+      "name": "elliptic_continuous",
+      "doc": "elliptic_continuous.",
+      "line": 204,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.elliptic_continuous",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.dlmf_19_9_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED-FROM-CITED"
+    },
+    {
+      "name": "elliptic_endpoints",
+      "doc": "elliptic_endpoints.",
+      "line": 211,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.elliptic_endpoints",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.dlmf_19_8_5",
+        "SmaleRate.Cited.dlmf_19_9_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED-FROM-CITED"
+    },
+    {
+      "name": "mu_decreasing",
+      "doc": "mu_decreasing.",
+      "line": 217,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.mu_decreasing",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.dlmf_19_9_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED-FROM-CITED"
+    },
+    {
+      "name": "mu_range",
+      "doc": "mu_range.",
+      "line": 222,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.mu_range",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.dlmf_19_9_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED-FROM-CITED"
+    },
+    {
+      "name": "mu_continuous",
+      "doc": "mu_continuous.",
+      "line": 226,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.mu_continuous",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.dlmf_19_9_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED-FROM-CITED"
+    },
+    {
+      "name": "mu_positive",
+      "doc": "mu_positive.",
+      "line": 233,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.mu_positive",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.dlmf_19_9_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED-FROM-CITED"
+    },
+    {
+      "name": "mu_endpoints",
+      "doc": "mu_endpoints.",
+      "line": 237,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.mu_endpoints",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.dlmf_19_9_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED-FROM-CITED"
+    },
+    {
+      "name": "mu_complement",
+      "doc": "mu_complement.",
+      "line": 241,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.mu_complement",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.dlmf_19_9_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED-FROM-CITED"
+    },
+    {
+      "name": "dlmf_19_9_5",
+      "doc": "dlmf_19_9_5.",
+      "line": 247,
+      "direct_cited_input": "SmaleRate.Cited.dlmf_19_9_5",
+      "qualified_name": "SmaleRate.Paper.dlmf_19_9_5",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.dlmf_19_9_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "CITED"
+    },
+    {
+      "name": "mu_log_upper",
+      "doc": "mu_log_upper.",
+      "line": 253,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.mu_log_upper",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.dlmf_19_9_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED-FROM-CITED"
+    },
+    {
+      "name": "mu_small_error",
+      "doc": "mu_small_error.",
+      "line": 257,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.mu_small_error",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.dlmf_19_9_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED-FROM-CITED"
+    },
+    {
+      "name": "mu_near_one",
+      "doc": "mu_near_one.",
+      "line": 262,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.mu_near_one",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.dlmf_19_9_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED-FROM-CITED"
+    },
+    {
+      "name": "thm_1_1",
+      "doc": "thm_1_1.",
+      "line": 267,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.thm_1_1",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext",
+        "sorryAx"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "OPEN"
+    },
+    {
+      "name": "cor_1_2",
+      "doc": "cor_1_2.",
+      "line": 272,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.cor_1_2",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext",
+        "sorryAx"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "OPEN"
+    },
+    {
+      "name": "ybound_at_zero",
+      "doc": "ybound_at_zero.",
+      "line": 276,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.ybound_at_zero",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.dlmf_19_9_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED-FROM-CITED"
+    },
+    {
+      "name": "ybound_at_one",
+      "doc": "ybound_at_one.",
+      "line": 280,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.ybound_at_one",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.dlmf_19_9_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED-FROM-CITED"
+    },
+    {
+      "name": "ybound_below_four_near_one",
+      "doc": "ybound_below_four_near_one.",
+      "line": 284,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.ybound_below_four_near_one",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.dlmf_19_9_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED-FROM-CITED"
+    },
+    {
+      "name": "kd_lt_four",
+      "doc": "kd_lt_four.",
+      "line": 289,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.kd_lt_four",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "ybound_fixed_y_limit",
+      "doc": "ybound_fixed_y_limit.",
+      "line": 293,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.ybound_fixed_y_limit",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.dlmf_19_9_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED-FROM-CITED"
+    },
+    {
+      "name": "degree_example_39",
+      "doc": "degree_example_39.",
+      "line": 298,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.degree_example_39",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext",
+        "sorryAx"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "OPEN"
+    },
+    {
+      "name": "inverse_branch_exists",
+      "doc": "inverse_branch_exists.",
+      "line": 303,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.inverse_branch_exists",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "inverse_branch_properties",
+      "doc": "inverse_branch_properties.",
+      "line": 309,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.inverse_branch_properties",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "inverse_jordan_domain",
+      "doc": "inverse_jordan_domain.",
+      "line": 318,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.inverse_jordan_domain",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "exterior_image_geometry",
+      "doc": "exterior_image_geometry.",
+      "line": 326,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.exterior_image_geometry",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "capacity_identity",
+      "doc": "capacity_identity.",
+      "line": 335,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.capacity_identity",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext",
+        "sorryAx"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "OPEN"
+    },
+    {
+      "name": "capacity_step_scalar",
+      "doc": "capacity_step_scalar.",
+      "line": 342,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.capacity_step_scalar",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "riemann_map_for_exterior",
+      "doc": "riemann_map_for_exterior.",
+      "line": 349,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.riemann_map_for_exterior",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext",
+        "sorryAx"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "OPEN"
+    },
+    {
+      "name": "xi_bound",
+      "doc": "xi_bound.",
+      "line": 354,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.xi_bound",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "betsakos_inequality",
+      "doc": "betsakos_inequality.",
+      "line": 365,
+      "direct_cited_input": "SmaleRate.Cited.betsakos_2013",
+      "qualified_name": "SmaleRate.Paper.betsakos_inequality",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.betsakos_2013",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "CITED"
+    },
+    {
+      "name": "betsakos_equality",
+      "doc": "betsakos_equality.",
+      "line": 373,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.betsakos_equality",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext",
+        "sorryAx"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "OPEN"
+    },
+    {
+      "name": "betsakos_derivative",
+      "doc": "betsakos_derivative.",
+      "line": 383,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.betsakos_derivative",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.betsakos_2013",
+        "SmaleRate.Cited.dlmf_19_9_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED-FROM-CITED"
+    },
+    {
+      "name": "diameter_closure",
+      "doc": "diameter_closure.",
+      "line": 390,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.diameter_closure",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "diameter_decreasing",
+      "doc": "diameter_decreasing.",
+      "line": 395,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.diameter_decreasing",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "diameter_capacity",
+      "doc": "diameter_capacity.",
+      "line": 401,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.diameter_capacity",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "final_scalar_deduction",
+      "doc": "final_scalar_deduction.",
+      "line": 406,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.final_scalar_deduction",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "polynomial_bound",
+      "doc": "polynomial_bound.",
+      "line": 414,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.polynomial_bound",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext",
+        "sorryAx"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "OPEN"
+    },
+    {
+      "name": "beta_y_change",
+      "doc": "beta_y_change.",
+      "line": 419,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.beta_y_change",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "bound_set_well_defined",
+      "doc": "bound_set_well_defined.",
+      "line": 424,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.bound_set_well_defined",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "kd_le_best",
+      "doc": "kd_le_best.",
+      "line": 429,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.kd_le_best",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext",
+        "sorryAx"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "OPEN"
+    },
+    {
+      "name": "cor_step1_mu",
+      "doc": "cor_step1_mu.",
+      "line": 433,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.cor_step1_mu",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.dlmf_19_9_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED-FROM-CITED"
+    },
+    {
+      "name": "cor_step1_majorant",
+      "doc": "cor_step1_majorant.",
+      "line": 438,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.cor_step1_majorant",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext",
+        "sorryAx"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "OPEN"
+    },
+    {
+      "name": "exp_lower",
+      "doc": "exp_lower.",
+      "line": 443,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.exp_lower",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "general_L_majorant",
+      "doc": "general_L_majorant.",
+      "line": 447,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.general_L_majorant",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.dlmf_19_9_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED-FROM-CITED"
+    },
+    {
+      "name": "tail_log_correction",
+      "doc": "tail_log_correction.",
+      "line": 454,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.tail_log_correction",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "tail_log_ratio_decreasing",
+      "doc": "tail_log_ratio_decreasing.",
+      "line": 459,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.tail_log_ratio_decreasing",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "tail_lambda_upper",
+      "doc": "tail_lambda_upper.",
+      "line": 463,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.tail_lambda_upper",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "tail_constants",
+      "doc": "tail_constants.",
+      "line": 467,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.tail_constants",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "cor_step3",
+      "doc": "cor_step3.",
+      "line": 475,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.cor_step3",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "cor_step2",
+      "doc": "cor_step2.",
+      "line": 479,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.cor_step2",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "best_strict_improvement",
+      "doc": "best_strict_improvement.",
+      "line": 483,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.best_strict_improvement",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.dlmf_19_9_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED-FROM-CITED"
+    },
+    {
+      "name": "prop_3_4_lower_error",
+      "doc": "prop_3_4_lower_error.",
+      "line": 490,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.prop_3_4_lower_error",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.dlmf_19_9_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED-FROM-CITED"
+    },
+    {
+      "name": "prop_3_4_upper",
+      "doc": "prop_3_4_upper.",
+      "line": 495,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.prop_3_4_upper",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.dlmf_19_9_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED-FROM-CITED"
+    },
+    {
+      "name": "prop_3_4_limit",
+      "doc": "prop_3_4_limit.",
+      "line": 500,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.prop_3_4_limit",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.dlmf_19_9_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED-FROM-CITED"
+    },
+    {
+      "name": "prop_denominator_positive",
+      "doc": "prop_denominator_positive.",
+      "line": 504,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.prop_denominator_positive",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "prop_delta_bound",
+      "doc": "prop_delta_bound.",
+      "line": 509,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.prop_delta_bound",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.dlmf_19_9_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED-FROM-CITED"
+    },
+    {
+      "name": "prop_case_a",
+      "doc": "prop_case_a.",
+      "line": 515,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.prop_case_a",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.dlmf_19_9_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED-FROM-CITED"
+    },
+    {
+      "name": "prop_case_b",
+      "doc": "prop_case_b.",
+      "line": 521,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.prop_case_b",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.dlmf_19_9_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED-FROM-CITED"
+    },
+    {
+      "name": "prop_case_c",
+      "doc": "prop_case_c.",
+      "line": 526,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.prop_case_c",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.dlmf_19_9_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED-FROM-CITED"
+    },
+    {
+      "name": "prop_uniform_lower",
+      "doc": "prop_uniform_lower.",
+      "line": 531,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.prop_uniform_lower",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.dlmf_19_9_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED-FROM-CITED"
+    },
+    {
+      "name": "prop_selected_L",
+      "doc": "prop_selected_L.",
+      "line": 535,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.prop_selected_L",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.dlmf_19_9_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED-FROM-CITED"
+    },
+    {
+      "name": "weaker_asymptotic_difference",
+      "doc": "weaker_asymptotic_difference.",
+      "line": 541,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.weaker_asymptotic_difference",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.dlmf_19_9_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED-FROM-CITED"
+    },
+    {
+      "name": "weaker_k_gap_liminf",
+      "doc": "weaker_k_gap_liminf.",
+      "line": 545,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.weaker_k_gap_liminf",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext",
+        "sorryAx"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "OPEN"
+    },
+    {
+      "name": "earlier_crane_comparison",
+      "doc": "earlier_crane_comparison.",
+      "line": 550,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.earlier_crane_comparison",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "sqrt_log_minimum",
+      "doc": "sqrt_log_minimum.",
+      "line": 554,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.sqrt_log_minimum",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "earlier_fujikawa_comparison",
+      "doc": "earlier_fujikawa_comparison.",
+      "line": 560,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.earlier_fujikawa_comparison",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "earlier_three_comparisons",
+      "doc": "earlier_three_comparisons.",
+      "line": 564,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.earlier_three_comparisons",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "d_plus_one_log_increasing",
+      "doc": "d_plus_one_log_increasing.",
+      "line": 569,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.d_plus_one_log_increasing",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "agm_bracketing",
+      "doc": "agm_bracketing.",
+      "line": 573,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.agm_bracketing",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "agm_convergence",
+      "doc": "agm_convergence.",
+      "line": 583,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.agm_convergence",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "agm_elliptic_identity",
+      "doc": "agm_elliptic_identity.",
+      "line": 589,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.agm_elliptic_identity",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.dlmf_19_8_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED-FROM-CITED"
+    },
+    {
+      "name": "dlmf_19_8_5",
+      "doc": "dlmf_19_8_5.",
+      "line": 595,
+      "direct_cited_input": "SmaleRate.Cited.dlmf_19_8_5",
+      "qualified_name": "SmaleRate.Paper.dlmf_19_8_5",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.dlmf_19_8_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "CITED"
+    },
+    {
+      "name": "range_7_enclosure",
+      "doc": "range_7_enclosure.",
+      "line": 600,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.range_7_enclosure",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.dlmf_19_8_5",
+        "SmaleRate.Cited.dlmf_19_9_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED-FROM-CITED"
+    },
+    {
+      "name": "range_8_enclosure",
+      "doc": "range_8_enclosure.",
+      "line": 605,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.range_8_enclosure",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.dlmf_19_8_5",
+        "SmaleRate.Cited.dlmf_19_9_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED-FROM-CITED"
+    },
+    {
+      "name": "range_selected_values",
+      "doc": "range_selected_values.",
+      "line": 611,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.range_selected_values",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.dlmf_19_8_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED-FROM-CITED"
+    },
+    {
+      "name": "range_tail",
+      "doc": "range_tail.",
+      "line": 617,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.range_tail",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.dlmf_19_9_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED-FROM-CITED"
+    },
+    {
+      "name": "range_interval_lower",
+      "doc": "range_interval_lower.",
+      "line": 622,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.range_interval_lower",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.dlmf_19_9_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED-FROM-CITED"
+    },
+    {
+      "name": "figure3_height",
+      "doc": "figure3_height.",
+      "line": 628,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.figure3_height",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext",
+        "sorryAx"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "OPEN"
+    },
+    {
+      "name": "table3_M_8",
+      "doc": "Table 3 M, degree 8.",
+      "line": 633,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.table3_M_8",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "table3_target_8",
+      "doc": "Table 3 target, degree 8.",
+      "line": 637,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.table3_target_8",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "table3_margin_8",
+      "doc": "Table 3 margin, degree 8.",
+      "line": 641,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.table3_margin_8",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "table3_M_9",
+      "doc": "Table 3 M, degree 9.",
+      "line": 647,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.table3_M_9",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "table3_target_9",
+      "doc": "Table 3 target, degree 9.",
+      "line": 651,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.table3_target_9",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "table3_margin_9",
+      "doc": "Table 3 margin, degree 9.",
+      "line": 655,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.table3_margin_9",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "table3_M_10",
+      "doc": "Table 3 M, degree 10.",
+      "line": 661,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.table3_M_10",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "table3_target_10",
+      "doc": "Table 3 target, degree 10.",
+      "line": 665,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.table3_target_10",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "table3_margin_10",
+      "doc": "Table 3 margin, degree 10.",
+      "line": 669,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.table3_margin_10",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "table3_M_11",
+      "doc": "Table 3 M, degree 11.",
+      "line": 675,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.table3_M_11",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "table3_target_11",
+      "doc": "Table 3 target, degree 11.",
+      "line": 679,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.table3_target_11",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "table3_margin_11",
+      "doc": "Table 3 margin, degree 11.",
+      "line": 683,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.table3_margin_11",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "table3_M_12",
+      "doc": "Table 3 M, degree 12.",
+      "line": 689,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.table3_M_12",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "table3_target_12",
+      "doc": "Table 3 target, degree 12.",
+      "line": 693,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.table3_target_12",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "table3_margin_12",
+      "doc": "Table 3 margin, degree 12.",
+      "line": 697,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.table3_margin_12",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "table3_M_13",
+      "doc": "Table 3 M, degree 13.",
+      "line": 703,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.table3_M_13",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "table3_target_13",
+      "doc": "Table 3 target, degree 13.",
+      "line": 707,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.table3_target_13",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "table3_margin_13",
+      "doc": "Table 3 margin, degree 13.",
+      "line": 711,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.table3_margin_13",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "table3_M_14",
+      "doc": "Table 3 M, degree 14.",
+      "line": 717,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.table3_M_14",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "table3_target_14",
+      "doc": "Table 3 target, degree 14.",
+      "line": 721,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.table3_target_14",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "table3_margin_14",
+      "doc": "Table 3 margin, degree 14.",
+      "line": 725,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.table3_margin_14",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "table3_M_15",
+      "doc": "Table 3 M, degree 15.",
+      "line": 731,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.table3_M_15",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "table3_target_15",
+      "doc": "Table 3 target, degree 15.",
+      "line": 735,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.table3_target_15",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "table3_margin_15",
+      "doc": "Table 3 margin, degree 15.",
+      "line": 739,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.table3_margin_15",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "table3_M_16",
+      "doc": "Table 3 M, degree 16.",
+      "line": 745,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.table3_M_16",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "table3_target_16",
+      "doc": "Table 3 target, degree 16.",
+      "line": 749,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.table3_target_16",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "table3_margin_16",
+      "doc": "Table 3 margin, degree 16.",
+      "line": 753,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.table3_margin_16",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "table3_M_17",
+      "doc": "Table 3 M, degree 17.",
+      "line": 759,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.table3_M_17",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "table3_target_17",
+      "doc": "Table 3 target, degree 17.",
+      "line": 763,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.table3_target_17",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "table3_margin_17",
+      "doc": "Table 3 margin, degree 17.",
+      "line": 767,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.table3_margin_17",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "table3_M_18",
+      "doc": "Table 3 M, degree 18.",
+      "line": 773,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.table3_M_18",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "table3_target_18",
+      "doc": "Table 3 target, degree 18.",
+      "line": 777,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.table3_target_18",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "table3_margin_18",
+      "doc": "Table 3 margin, degree 18.",
+      "line": 781,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.table3_margin_18",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "table3_M_19",
+      "doc": "Table 3 M, degree 19.",
+      "line": 787,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.table3_M_19",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "table3_target_19",
+      "doc": "Table 3 target, degree 19.",
+      "line": 791,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.table3_target_19",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "table3_margin_19",
+      "doc": "Table 3 margin, degree 19.",
+      "line": 795,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.table3_margin_19",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "table3_M_20",
+      "doc": "Table 3 M, degree 20.",
+      "line": 801,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.table3_M_20",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "table3_target_20",
+      "doc": "Table 3 target, degree 20.",
+      "line": 805,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.table3_target_20",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "table3_margin_20",
+      "doc": "Table 3 margin, degree 20.",
+      "line": 809,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.table3_margin_20",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "tail_star",
+      "doc": "tail_star.",
+      "line": 815,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.tail_star",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "bounds_below_39",
+      "doc": "bounds_below_39.",
+      "line": 819,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.bounds_below_39",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext",
+        "sorryAx"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "OPEN"
+    },
+    {
+      "name": "small_bound_below_39",
+      "doc": "small_bound_below_39.",
+      "line": 823,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.small_bound_below_39",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext",
+        "sorryAx"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "OPEN"
+    },
+    {
+      "name": "range_7_best_improvement",
+      "doc": "range_7_best_improvement.",
+      "line": 827,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.range_7_best_improvement",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext",
+        "sorryAx"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "OPEN"
+    },
+    {
+      "name": "figure3_gap8",
+      "doc": "figure3_gap8.",
+      "line": 831,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.figure3_gap8",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.dlmf_19_8_5",
+        "SmaleRate.Cited.dlmf_19_9_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED-FROM-CITED"
+    },
+    {
+      "name": "general_exp_upper",
+      "doc": "general_exp_upper.",
+      "line": 836,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.general_exp_upper",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "log_one_sub",
+      "doc": "log_one_sub.",
+      "line": 840,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.log_one_sub",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "log_one_sub_half",
+      "doc": "log_one_sub_half.",
+      "line": 844,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.log_one_sub_half",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "diameter_closure_limit",
+      "doc": "diameter_closure_limit.",
+      "line": 848,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.diameter_closure_limit",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "betsakos_small_argument",
+      "doc": "betsakos_small_argument.",
+      "line": 852,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.betsakos_small_argument",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.dlmf_19_9_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED-FROM-CITED"
+    },
+    {
+      "name": "betsakos_large_argument",
+      "doc": "betsakos_large_argument.",
+      "line": 856,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.betsakos_large_argument",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.dlmf_19_9_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED-FROM-CITED"
+    },
+    {
+      "name": "zero_betsakos_interpretation",
+      "doc": "zero_betsakos_interpretation.",
+      "line": 860,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.zero_betsakos_interpretation",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.dlmf_19_9_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED-FROM-CITED"
+    },
+    {
+      "name": "capacity_phi_expansion",
+      "doc": "capacity_phi_expansion.",
+      "line": 864,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.capacity_phi_expansion",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "exterior_conformal_map",
+      "doc": "exterior_conformal_map.",
+      "line": 868,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.exterior_conformal_map",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "xi_polynomial_holomorphic_extension",
+      "doc": "xi_polynomial_holomorphic_extension.",
+      "line": 872,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.xi_polynomial_holomorphic_extension",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "figure2_example",
+      "doc": "figure2_example.",
+      "line": 877,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.figure2_example",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "table2_8",
+      "doc": "table2_8.",
+      "line": 881,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.table2_8",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.dlmf_19_8_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED-FROM-CITED"
+    },
+    {
+      "name": "figure3_dot_8",
+      "doc": "figure3_dot_8.",
+      "line": 887,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.figure3_dot_8",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.dlmf_19_8_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED-FROM-CITED"
+    },
+    {
+      "name": "table2_100",
+      "doc": "table2_100.",
+      "line": 891,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.table2_100",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.dlmf_19_8_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED-FROM-CITED"
+    },
+    {
+      "name": "figure3_dot_100",
+      "doc": "figure3_dot_100.",
+      "line": 897,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.figure3_dot_100",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.dlmf_19_8_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED-FROM-CITED"
+    },
+    {
+      "name": "table2_10000",
+      "doc": "table2_10000.",
+      "line": 901,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.table2_10000",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.dlmf_19_8_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED-FROM-CITED"
+    },
+    {
+      "name": "figure3_dot_10000",
+      "doc": "figure3_dot_10000.",
+      "line": 907,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.figure3_dot_10000",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.dlmf_19_8_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED-FROM-CITED"
+    },
+    {
+      "name": "table2_1000000",
+      "doc": "table2_1000000.",
+      "line": 911,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.table2_1000000",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.dlmf_19_8_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED-FROM-CITED"
+    },
+    {
+      "name": "figure3_dot_1000000",
+      "doc": "figure3_dot_1000000.",
+      "line": 917,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.figure3_dot_1000000",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.dlmf_19_8_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED-FROM-CITED"
+    },
+    {
+      "name": "crane_numeric_8",
+      "doc": "crane_numeric_8.",
+      "line": 921,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.crane_numeric_8",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext",
+        "sorryAx"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "OPEN"
+    },
+    {
+      "name": "crane_numeric_9",
+      "doc": "crane_numeric_9.",
+      "line": 925,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.crane_numeric_9",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext",
+        "sorryAx"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "OPEN"
+    },
+    {
+      "name": "crane_numeric_10",
+      "doc": "crane_numeric_10.",
+      "line": 929,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.crane_numeric_10",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext",
+        "sorryAx"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "OPEN"
+    },
+    {
+      "name": "crane_numeric_11",
+      "doc": "crane_numeric_11.",
+      "line": 933,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.crane_numeric_11",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext",
+        "sorryAx"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "OPEN"
+    },
+    {
+      "name": "crane_numeric_12",
+      "doc": "crane_numeric_12.",
+      "line": 937,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.crane_numeric_12",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext",
+        "sorryAx"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "OPEN"
+    },
+    {
+      "name": "crane_numeric_16",
+      "doc": "crane_numeric_16.",
+      "line": 941,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.crane_numeric_16",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext",
+        "sorryAx"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "OPEN"
+    },
+    {
+      "name": "crane_numeric_25",
+      "doc": "crane_numeric_25.",
+      "line": 945,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.crane_numeric_25",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext",
+        "sorryAx"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "OPEN"
+    },
+    {
+      "name": "crane_numeric_100",
+      "doc": "crane_numeric_100.",
+      "line": 949,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.crane_numeric_100",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext",
+        "sorryAx"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "OPEN"
+    },
+    {
+      "name": "crane_numeric_10000",
+      "doc": "crane_numeric_10000.",
+      "line": 953,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.crane_numeric_10000",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext",
+        "sorryAx"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "OPEN"
+    },
+    {
+      "name": "inverse_analytic_boundary",
+      "doc": "inverse_analytic_boundary.",
+      "line": 957,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.inverse_analytic_boundary",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "conformal_geometry_witness",
+      "doc": "conformal_geometry_witness.",
+      "line": 961,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.conformal_geometry_witness",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "capacity_conformal_coefficient",
+      "doc": "capacity_conformal_coefficient.",
+      "line": 965,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.capacity_conformal_coefficient",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext",
+        "sorryAx"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "OPEN"
+    },
+    {
+      "name": "table3_printed_minimum",
+      "doc": "table3_printed_minimum.",
+      "line": 969,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.table3_printed_minimum",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "crane_unique_minimum",
+      "doc": "crane_unique_minimum.",
+      "line": 973,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.crane_unique_minimum",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "figure1_six_dots_above",
+      "doc": "figure1_six_dots_above.",
+      "line": 977,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.figure1_six_dots_above",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "figure1_three_dots_below",
+      "doc": "figure1_three_dots_below.",
+      "line": 981,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.figure1_three_dots_below",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "figure1_excluded_regions",
+      "doc": "figure1_excluded_regions.",
+      "line": 985,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.figure1_excluded_regions",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext",
+        "sorryAx"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "OPEN"
+    },
+    {
+      "name": "first_four_order",
+      "doc": "first_four_order.",
+      "line": 989,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.first_four_order",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "crane_gap_order",
+      "doc": "crane_gap_order.",
+      "line": 993,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.crane_gap_order",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "small_multiple_asymptotic",
+      "doc": "small_multiple_asymptotic.",
+      "line": 997,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.small_multiple_asymptotic",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "quadratic_inverse_example",
+      "doc": "quadratic_inverse_example.",
+      "line": 1001,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.quadratic_inverse_example",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "table2_earlier_8",
+      "doc": "table2_earlier_8.",
+      "line": 1005,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.table2_earlier_8",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "table2_earlier_100",
+      "doc": "table2_earlier_100.",
+      "line": 1009,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.table2_earlier_100",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "table2_earlier_10000",
+      "doc": "table2_earlier_10000.",
+      "line": 1013,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.table2_earlier_10000",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "table2_earlier_1000000",
+      "doc": "table2_earlier_1000000.",
+      "line": 1017,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.table2_earlier_1000000",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "table3_M_rounding_8",
+      "doc": "table3_M_rounding_8.",
+      "line": 1021,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.table3_M_rounding_8",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "table3_target_rounding_8",
+      "doc": "table3_target_rounding_8.",
+      "line": 1025,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.table3_target_rounding_8",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "table3_M_rounding_9",
+      "doc": "table3_M_rounding_9.",
+      "line": 1029,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.table3_M_rounding_9",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "table3_target_rounding_9",
+      "doc": "table3_target_rounding_9.",
+      "line": 1033,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.table3_target_rounding_9",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "table3_M_rounding_10",
+      "doc": "table3_M_rounding_10.",
+      "line": 1037,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.table3_M_rounding_10",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "table3_target_rounding_10",
+      "doc": "table3_target_rounding_10.",
+      "line": 1041,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.table3_target_rounding_10",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "table3_M_rounding_11",
+      "doc": "table3_M_rounding_11.",
+      "line": 1045,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.table3_M_rounding_11",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "table3_target_rounding_11",
+      "doc": "table3_target_rounding_11.",
+      "line": 1049,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.table3_target_rounding_11",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "table3_M_rounding_12",
+      "doc": "table3_M_rounding_12.",
+      "line": 1053,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.table3_M_rounding_12",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "table3_target_rounding_12",
+      "doc": "table3_target_rounding_12.",
+      "line": 1057,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.table3_target_rounding_12",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "table3_M_rounding_13",
+      "doc": "table3_M_rounding_13.",
+      "line": 1061,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.table3_M_rounding_13",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "table3_target_rounding_13",
+      "doc": "table3_target_rounding_13.",
+      "line": 1065,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.table3_target_rounding_13",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "table3_M_rounding_14",
+      "doc": "table3_M_rounding_14.",
+      "line": 1069,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.table3_M_rounding_14",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "table3_target_rounding_14",
+      "doc": "table3_target_rounding_14.",
+      "line": 1073,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.table3_target_rounding_14",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "table3_M_rounding_15",
+      "doc": "table3_M_rounding_15.",
+      "line": 1077,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.table3_M_rounding_15",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "table3_target_rounding_15",
+      "doc": "table3_target_rounding_15.",
+      "line": 1081,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.table3_target_rounding_15",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "table3_M_rounding_16",
+      "doc": "table3_M_rounding_16.",
+      "line": 1085,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.table3_M_rounding_16",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "table3_target_rounding_16",
+      "doc": "table3_target_rounding_16.",
+      "line": 1089,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.table3_target_rounding_16",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "table3_M_rounding_17",
+      "doc": "table3_M_rounding_17.",
+      "line": 1093,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.table3_M_rounding_17",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "table3_target_rounding_17",
+      "doc": "table3_target_rounding_17.",
+      "line": 1097,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.table3_target_rounding_17",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "table3_M_rounding_18",
+      "doc": "table3_M_rounding_18.",
+      "line": 1101,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.table3_M_rounding_18",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "table3_target_rounding_18",
+      "doc": "table3_target_rounding_18.",
+      "line": 1105,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.table3_target_rounding_18",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "table3_M_rounding_19",
+      "doc": "table3_M_rounding_19.",
+      "line": 1109,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.table3_M_rounding_19",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "table3_target_rounding_19",
+      "doc": "table3_target_rounding_19.",
+      "line": 1113,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.table3_target_rounding_19",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "table3_M_rounding_20",
+      "doc": "table3_M_rounding_20.",
+      "line": 1117,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.table3_M_rounding_20",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "table3_target_rounding_20",
+      "doc": "table3_target_rounding_20.",
+      "line": 1121,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.table3_target_rounding_20",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "disk_green_instance",
+      "doc": "disk_green_instance.",
+      "line": 1125,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.disk_green_instance",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "finite_green_exists",
+      "doc": "finite_green_exists.",
+      "line": 1129,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.finite_green_exists",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext",
+        "sorryAx"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "OPEN"
+    },
+    {
+      "name": "finite_green_conformal_invariance",
+      "doc": "finite_green_conformal_invariance.",
+      "line": 1133,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.finite_green_conformal_invariance",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "exterior_green_exists",
+      "doc": "exterior_green_exists.",
+      "line": 1138,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.exterior_green_exists",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext",
+        "sorryAx"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "OPEN"
+    },
+    {
+      "name": "inversion_green_identity",
+      "doc": "inversion_green_identity.",
+      "line": 1142,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.inversion_green_identity",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "bernstein_walsh",
+      "doc": "bernstein_walsh.",
+      "line": 1147,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.bernstein_walsh",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext",
+        "sorryAx"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "OPEN"
+    },
+    {
+      "name": "dubinin_polynomial_specialization",
+      "doc": "dubinin_polynomial_specialization.",
+      "line": 1151,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.dubinin_polynomial_specialization",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext",
+        "sorryAx"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "OPEN"
+    },
+    {
+      "name": "jatar_ng_boundary_critical_exists",
+      "doc": "jatar_ng_boundary_critical_exists.",
+      "line": 1155,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.jatar_ng_boundary_critical_exists",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "jatar_ng_leading_coefficient",
+      "doc": "jatar_ng_leading_coefficient.",
+      "line": 1159,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.jatar_ng_leading_coefficient",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.jatar_ng_2026_sec1_2_leading_lt_one",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED-FROM-CITED"
+    },
+    {
+      "name": "jatar_ng_source_v",
+      "doc": "jatar_ng_source_v.",
+      "line": 1164,
+      "direct_cited_input": "SmaleRate.Cited.jatar_ng_2026_theorem1_v",
+      "qualified_name": "SmaleRate.Paper.jatar_ng_source_v",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.jatar_ng_2026_theorem1_v",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "CITED"
+    },
+    {
+      "name": "jatar_ng_printed_bound",
+      "doc": "jatar_ng_printed_bound.",
+      "line": 1168,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.jatar_ng_printed_bound",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.jatar_ng_2026_sec1_2_leading_lt_one",
+        "SmaleRate.Cited.jatar_ng_2026_theorem1_v",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED-FROM-CITED"
+    },
+    {
+      "name": "jatar_ng_bound_limit",
+      "doc": "jatar_ng_bound_limit.",
+      "line": 1173,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.jatar_ng_bound_limit",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "finite_box_soundness",
+      "doc": "finite_box_soundness.",
+      "line": 1177,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.finite_box_soundness",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.dlmf_19_9_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED-FROM-CITED"
+    },
+    {
+      "name": "range7_finite_certificate",
+      "doc": "range7_finite_certificate.",
+      "line": 1182,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.range7_finite_certificate",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.dlmf_19_8_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED-FROM-CITED"
+    },
+    {
+      "name": "range8_finite_certificate",
+      "doc": "range8_finite_certificate.",
+      "line": 1193,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.range8_finite_certificate",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.dlmf_19_8_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED-FROM-CITED"
+    },
+    {
+      "name": "s_pos_of_critical_values_ne_zero",
+      "doc": "s_pos_of_critical_values_ne_zero.",
+      "line": 1203,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.s_pos_of_critical_values_ne_zero",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "ybound_gt_rpow",
+      "doc": "ybound_gt_rpow.",
+      "line": 1207,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.ybound_gt_rpow",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.dlmf_19_9_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED-FROM-CITED"
+    },
+    {
+      "name": "koebe_quarter_omission",
+      "doc": "koebe_quarter_omission.",
+      "line": 1211,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.koebe_quarter_omission",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "lambda_chosen_identity",
+      "doc": "lambda_chosen_identity.",
+      "line": 1215,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.lambda_chosen_identity",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "tail_numerical_endpoints",
+      "doc": "tail_numerical_endpoints.",
+      "line": 1219,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.tail_numerical_endpoints",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "fujikawa_identity",
+      "doc": "fujikawa_identity.",
+      "line": 1223,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.fujikawa_identity",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "earlier_q_log_bound",
+      "doc": "earlier_q_log_bound.",
+      "line": 1227,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.earlier_q_log_bound",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "earlier_bracket_bound",
+      "doc": "earlier_bracket_bound.",
+      "line": 1231,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.earlier_bracket_bound",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "earlier_endpoint_8",
+      "doc": "earlier_endpoint_8.",
+      "line": 1235,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.earlier_endpoint_8",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "earlier_difference_formulas",
+      "doc": "earlier_difference_formulas.",
+      "line": 1239,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.earlier_difference_formulas",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "earlier_q_half",
+      "doc": "earlier_q_half.",
+      "line": 1243,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.earlier_q_half",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "earlier_q_eight",
+      "doc": "earlier_q_eight.",
+      "line": 1247,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.earlier_q_eight",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "prop_mu_complement_lower",
+      "doc": "prop_mu_complement_lower.",
+      "line": 1251,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.prop_mu_complement_lower",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.dlmf_19_9_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED-FROM-CITED"
+    },
+    {
+      "name": "prop_log_complement_lower",
+      "doc": "prop_log_complement_lower.",
+      "line": 1255,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.prop_log_complement_lower",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "prop_delta_elementary_lower",
+      "doc": "prop_delta_elementary_lower.",
+      "line": 1259,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.prop_delta_elementary_lower",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "jn_radius_well_defined",
+      "doc": "jn_radius_well_defined.",
+      "line": 1263,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.jn_radius_well_defined",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "jn_normalization_witness",
+      "doc": "jn_normalization_witness.",
+      "line": 1269,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.jn_normalization_witness",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "riemann_map_for_exterior_given_jordan",
+      "doc": "conditional riemann_map_for_exterior; the unconditional row stays open.",
+      "line": 1284,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.riemann_map_for_exterior_given_jordan",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [
+        "SmaleRate.Background.JordanCurveFact"
+      ],
+      "status": "PROVED-GIVEN SmaleRate.Background.JordanCurveFact"
+    },
+    {
+      "name": "capacity_conformal_coefficient_given_background",
+      "doc": "conditional coefficient upper bound; the unconditional row stays open.",
+      "line": 1290,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.capacity_conformal_coefficient_given_background",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [
+        "SmaleRate.Background.CoefficientUpperFact"
+      ],
+      "status": "PROVED-GIVEN SmaleRate.Background.CoefficientUpperFact"
+    },
+    {
+      "name": "exterior_image_geometry_given_jordan",
+      "doc": "conditional exterior_image_geometry; the original is now independently proved without this premise.",
+      "line": 1303,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.exterior_image_geometry_given_jordan",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [
+        "SmaleRate.Background.JordanCurveFact"
+      ],
+      "status": "PROVED-GIVEN SmaleRate.Background.JordanCurveFact"
+    },
+    {
+      "name": "polynomial_bound_given_background",
+      "doc": "conditional polynomial bound with both named facts explicit.",
+      "line": 1314,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.polynomial_bound_given_background",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.betsakos_2013",
+        "SmaleRate.Cited.dlmf_19_9_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [
+        "SmaleRate.Background.CoefficientUpperFact",
+        "SmaleRate.Background.JordanCurveFact"
+      ],
+      "status": "PROVED-GIVEN SmaleRate.Background.CoefficientUpperFact, SmaleRate.Background.JordanCurveFact"
+    },
+    {
+      "name": "thm_1_1_given_background",
+      "doc": "conditional Theorem1.1; original unconditional row stays open.",
+      "line": 1322,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.thm_1_1_given_background",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.betsakos_2013",
+        "SmaleRate.Cited.dlmf_19_9_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [
+        "SmaleRate.Background.CoefficientUpperFact",
+        "SmaleRate.Background.JordanCurveFact"
+      ],
+      "status": "PROVED-GIVEN SmaleRate.Background.CoefficientUpperFact, SmaleRate.Background.JordanCurveFact"
+    },
+    {
+      "name": "cor_1_2_given_background",
+      "doc": "conditional Corollary1.2; original unconditional row stays open.",
+      "line": 1331,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.cor_1_2_given_background",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.betsakos_2013",
+        "SmaleRate.Cited.dlmf_19_9_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [
+        "SmaleRate.Background.CoefficientUpperFact",
+        "SmaleRate.Background.JordanCurveFact"
+      ],
+      "status": "PROVED-GIVEN SmaleRate.Background.CoefficientUpperFact, SmaleRate.Background.JordanCurveFact"
+    },
+    {
+      "name": "small_bound_below_39_given_background",
+      "doc": "conditional small-degree bound; explicit named facts retained.",
+      "line": 1340,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.small_bound_below_39_given_background",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.betsakos_2013",
+        "SmaleRate.Cited.dlmf_19_9_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [
+        "SmaleRate.Background.CoefficientUpperFact",
+        "SmaleRate.Background.JordanCurveFact"
+      ],
+      "status": "PROVED-GIVEN SmaleRate.Background.CoefficientUpperFact, SmaleRate.Background.JordanCurveFact"
+    },
+    {
+      "name": "bounds_below_39_given_background",
+      "doc": "conditional intermediate degree bound; original remains open.",
+      "line": 1348,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.bounds_below_39_given_background",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.betsakos_2013",
+        "SmaleRate.Cited.dlmf_19_9_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [
+        "SmaleRate.Background.CoefficientUpperFact",
+        "SmaleRate.Background.JordanCurveFact"
+      ],
+      "status": "PROVED-GIVEN SmaleRate.Background.CoefficientUpperFact, SmaleRate.Background.JordanCurveFact"
+    },
+    {
+      "name": "degree_example_39_given_background",
+      "doc": "conditional 3.9 degree example; original remains open.",
+      "line": 1355,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.degree_example_39_given_background",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.betsakos_2013",
+        "SmaleRate.Cited.dlmf_19_9_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [
+        "SmaleRate.Background.CoefficientUpperFact",
+        "SmaleRate.Background.JordanCurveFact"
+      ],
+      "status": "PROVED-GIVEN SmaleRate.Background.CoefficientUpperFact, SmaleRate.Background.JordanCurveFact"
+    },
+    {
+      "name": "kd_lt_four_given_background",
+      "doc": "conditional strict all-degree bound; original remains open.",
+      "line": 1365,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.kd_lt_four_given_background",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.betsakos_2013",
+        "SmaleRate.Cited.dlmf_19_9_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [
+        "SmaleRate.Background.CoefficientUpperFact",
+        "SmaleRate.Background.JordanCurveFact"
+      ],
+      "status": "PROVED-GIVEN SmaleRate.Background.CoefficientUpperFact, SmaleRate.Background.JordanCurveFact"
+    },
+    {
+      "name": "smale_bound_given_background",
+      "doc": "conditional weak all-degree bound; original remains open.",
+      "line": 1378,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.smale_bound_given_background",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.betsakos_2013",
+        "SmaleRate.Cited.dlmf_19_9_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [
+        "SmaleRate.Background.CoefficientUpperFact",
+        "SmaleRate.Background.JordanCurveFact"
+      ],
+      "status": "PROVED-GIVEN SmaleRate.Background.CoefficientUpperFact, SmaleRate.Background.JordanCurveFact"
+    },
+    {
+      "name": "kd_finite_given_background",
+      "doc": "conditional supremum finiteness; original unconditional row remains open.",
+      "line": 1383,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.kd_finite_given_background",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.betsakos_2013",
+        "SmaleRate.Cited.dlmf_19_9_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [
+        "SmaleRate.Background.CoefficientUpperFact",
+        "SmaleRate.Background.JordanCurveFact"
+      ],
+      "status": "PROVED-GIVEN SmaleRate.Background.CoefficientUpperFact, SmaleRate.Background.JordanCurveFact"
+    },
+    {
+      "name": "kd_le_best_given_background",
+      "doc": "conditional optimized bound; original unconditional row remains open.",
+      "line": 1392,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.kd_le_best_given_background",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.betsakos_2013",
+        "SmaleRate.Cited.dlmf_19_9_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [
+        "SmaleRate.Background.CoefficientUpperFact",
+        "SmaleRate.Background.JordanCurveFact"
+      ],
+      "status": "PROVED-GIVEN SmaleRate.Background.CoefficientUpperFact, SmaleRate.Background.JordanCurveFact"
+    },
+    {
+      "name": "weaker_k_gap_liminf_given_background",
+      "doc": "conditional K-gap consequence; original unconditional row remains open.",
+      "line": 1405,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.weaker_k_gap_liminf_given_background",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.betsakos_2013",
+        "SmaleRate.Cited.dlmf_19_9_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [
+        "SmaleRate.Background.CoefficientUpperFact",
+        "SmaleRate.Background.JordanCurveFact"
+      ],
+      "status": "PROVED-GIVEN SmaleRate.Background.CoefficientUpperFact, SmaleRate.Background.JordanCurveFact"
+    },
+    {
+      "name": "crane_bound_given_background",
+      "doc": "conditional Crane comparison for Kd; original remains open.",
+      "line": 1413,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.crane_bound_given_background",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.betsakos_2013",
+        "SmaleRate.Cited.dlmf_19_9_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [
+        "SmaleRate.Background.CoefficientUpperFact",
+        "SmaleRate.Background.JordanCurveFact"
+      ],
+      "status": "PROVED-GIVEN SmaleRate.Background.CoefficientUpperFact, SmaleRate.Background.JordanCurveFact"
+    },
+    {
+      "name": "cor_step1_majorant_given_background",
+      "doc": "conditional Step1 majorant; original remains open.",
+      "line": 1420,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.cor_step1_majorant_given_background",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.betsakos_2013",
+        "SmaleRate.Cited.dlmf_19_9_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [
+        "SmaleRate.Background.CoefficientUpperFact",
+        "SmaleRate.Background.JordanCurveFact"
+      ],
+      "status": "PROVED-GIVEN SmaleRate.Background.CoefficientUpperFact, SmaleRate.Background.JordanCurveFact"
+    },
+    {
+      "name": "figure1_excluded_regions_given_background",
+      "doc": "conditional excluded-region bound; original remains open.",
+      "line": 1432,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.figure1_excluded_regions_given_background",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.betsakos_2013",
+        "SmaleRate.Cited.dlmf_19_9_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [
+        "SmaleRate.Background.CoefficientUpperFact",
+        "SmaleRate.Background.JordanCurveFact"
+      ],
+      "status": "PROVED-GIVEN SmaleRate.Background.CoefficientUpperFact, SmaleRate.Background.JordanCurveFact"
+    },
+    {
+      "name": "crane_numeric_margins",
+      "doc": "scalar margins for the nine printed Crane numbers; no Kd hypothesis.",
+      "line": 1444,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.crane_numeric_margins",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "crane_numbers_given_background",
+      "doc": "conditional nine-number Crane comparison; original unconditional rows remain open.",
+      "line": 1451,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.crane_numbers_given_background",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.betsakos_2013",
+        "SmaleRate.Cited.dlmf_19_9_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [
+        "SmaleRate.Background.CoefficientUpperFact",
+        "SmaleRate.Background.JordanCurveFact"
+      ],
+      "status": "PROVED-GIVEN SmaleRate.Background.CoefficientUpperFact, SmaleRate.Background.JordanCurveFact"
+    },
+    {
+      "name": "crane_numeric_8_given_background",
+      "doc": "conditional Crane number at degree 8; original unconditional row remains open.",
+      "line": 1459,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.crane_numeric_8_given_background",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.betsakos_2013",
+        "SmaleRate.Cited.dlmf_19_9_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [
+        "SmaleRate.Background.CoefficientUpperFact",
+        "SmaleRate.Background.JordanCurveFact"
+      ],
+      "status": "PROVED-GIVEN SmaleRate.Background.CoefficientUpperFact, SmaleRate.Background.JordanCurveFact"
+    },
+    {
+      "name": "crane_numeric_9_given_background",
+      "doc": "conditional Crane number at degree 9; original unconditional row remains open.",
+      "line": 1467,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.crane_numeric_9_given_background",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.betsakos_2013",
+        "SmaleRate.Cited.dlmf_19_9_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [
+        "SmaleRate.Background.CoefficientUpperFact",
+        "SmaleRate.Background.JordanCurveFact"
+      ],
+      "status": "PROVED-GIVEN SmaleRate.Background.CoefficientUpperFact, SmaleRate.Background.JordanCurveFact"
+    },
+    {
+      "name": "crane_numeric_10_given_background",
+      "doc": "conditional Crane number at degree 10; original unconditional row remains open.",
+      "line": 1475,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.crane_numeric_10_given_background",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.betsakos_2013",
+        "SmaleRate.Cited.dlmf_19_9_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [
+        "SmaleRate.Background.CoefficientUpperFact",
+        "SmaleRate.Background.JordanCurveFact"
+      ],
+      "status": "PROVED-GIVEN SmaleRate.Background.CoefficientUpperFact, SmaleRate.Background.JordanCurveFact"
+    },
+    {
+      "name": "crane_numeric_11_given_background",
+      "doc": "conditional Crane number at degree 11; original unconditional row remains open.",
+      "line": 1483,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.crane_numeric_11_given_background",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.betsakos_2013",
+        "SmaleRate.Cited.dlmf_19_9_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [
+        "SmaleRate.Background.CoefficientUpperFact",
+        "SmaleRate.Background.JordanCurveFact"
+      ],
+      "status": "PROVED-GIVEN SmaleRate.Background.CoefficientUpperFact, SmaleRate.Background.JordanCurveFact"
+    },
+    {
+      "name": "crane_numeric_12_given_background",
+      "doc": "conditional Crane number at degree 12; original unconditional row remains open.",
+      "line": 1491,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.crane_numeric_12_given_background",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.betsakos_2013",
+        "SmaleRate.Cited.dlmf_19_9_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [
+        "SmaleRate.Background.CoefficientUpperFact",
+        "SmaleRate.Background.JordanCurveFact"
+      ],
+      "status": "PROVED-GIVEN SmaleRate.Background.CoefficientUpperFact, SmaleRate.Background.JordanCurveFact"
+    },
+    {
+      "name": "crane_numeric_16_given_background",
+      "doc": "conditional Crane number at degree 16; original unconditional row remains open.",
+      "line": 1499,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.crane_numeric_16_given_background",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.betsakos_2013",
+        "SmaleRate.Cited.dlmf_19_9_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [
+        "SmaleRate.Background.CoefficientUpperFact",
+        "SmaleRate.Background.JordanCurveFact"
+      ],
+      "status": "PROVED-GIVEN SmaleRate.Background.CoefficientUpperFact, SmaleRate.Background.JordanCurveFact"
+    },
+    {
+      "name": "crane_numeric_25_given_background",
+      "doc": "conditional Crane number at degree 25; original unconditional row remains open.",
+      "line": 1507,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.crane_numeric_25_given_background",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.betsakos_2013",
+        "SmaleRate.Cited.dlmf_19_9_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [
+        "SmaleRate.Background.CoefficientUpperFact",
+        "SmaleRate.Background.JordanCurveFact"
+      ],
+      "status": "PROVED-GIVEN SmaleRate.Background.CoefficientUpperFact, SmaleRate.Background.JordanCurveFact"
+    },
+    {
+      "name": "crane_numeric_100_given_background",
+      "doc": "conditional Crane number at degree 100; original unconditional row remains open.",
+      "line": 1515,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.crane_numeric_100_given_background",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.betsakos_2013",
+        "SmaleRate.Cited.dlmf_19_9_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [
+        "SmaleRate.Background.CoefficientUpperFact",
+        "SmaleRate.Background.JordanCurveFact"
+      ],
+      "status": "PROVED-GIVEN SmaleRate.Background.CoefficientUpperFact, SmaleRate.Background.JordanCurveFact"
+    },
+    {
+      "name": "crane_numeric_10000_given_background",
+      "doc": "conditional Crane number at degree 10000; original unconditional row remains open.",
+      "line": 1523,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.crane_numeric_10000_given_background",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.betsakos_2013",
+        "SmaleRate.Cited.dlmf_19_9_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [
+        "SmaleRate.Background.CoefficientUpperFact",
+        "SmaleRate.Background.JordanCurveFact"
+      ],
+      "status": "PROVED-GIVEN SmaleRate.Background.CoefficientUpperFact, SmaleRate.Background.JordanCurveFact"
+    },
+    {
+      "name": "gap_gt_four",
+      "doc": "scalar Figure3 height lower bound; no Kd hypothesis.",
+      "line": 1531,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.gap_gt_four",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.dlmf_19_9_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED-FROM-CITED"
+    },
+    {
+      "name": "figure3_height_given_background",
+      "doc": "conditional Figure3 height; original unconditional row remains open.",
+      "line": 1545,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.figure3_height_given_background",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.betsakos_2013",
+        "SmaleRate.Cited.dlmf_19_9_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [
+        "SmaleRate.Background.CoefficientUpperFact",
+        "SmaleRate.Background.JordanCurveFact"
+      ],
+      "status": "PROVED-GIVEN SmaleRate.Background.CoefficientUpperFact, SmaleRate.Background.JordanCurveFact"
+    },
+    {
+      "name": "degree_seven_target_upper",
+      "doc": "degree-seven target comparison; independent of the bestBound enclosure.",
+      "line": 1557,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.degree_seven_target_upper",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "fujikawa_seven_scalar",
+      "doc": "degree-seven older-bound minimum and printed decimal enclosure.",
+      "line": 1561,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.fujikawa_seven_scalar",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "table2_target_columns",
+      "doc": "elementary target entries in Table2, independent of the elliptic beta columns.",
+      "line": 1567,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.table2_target_columns",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "finite_green_exists_given_jordan",
+      "doc": "finite Green existence from the analytic RMT; original unconditional row remains open.",
+      "line": 1573,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.finite_green_exists_given_jordan",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [
+        "SmaleRate.Background.JordanCurveFact"
+      ],
+      "status": "PROVED-GIVEN SmaleRate.Background.JordanCurveFact"
+    },
+    {
+      "name": "lemniscate_frontier_value",
+      "doc": "component-frontier polynomial modulus at the defining radius.",
+      "line": 1579,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.lemniscate_frontier_value",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "jatar_ng_boundary_value",
+      "doc": "normalized boundary-critical witness has unit polynomial modulus.",
+      "line": 1585,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.jatar_ng_boundary_value",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "jatar_ng_leading_coefficient_positive",
+      "doc": "positive leading coefficient; the strict upper bound is a separate cited row.",
+      "line": 1591,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.jatar_ng_leading_coefficient_positive",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED"
+    },
+    {
+      "name": "jatar_ng_leading_lt_one",
+      "doc": "strict leading-coefficient upper restriction, direct external restatement.",
+      "line": 1596,
+      "direct_cited_input": "SmaleRate.Cited.jatar_ng_2026_sec1_2_leading_lt_one",
+      "qualified_name": "SmaleRate.Paper.jatar_ng_leading_lt_one",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.jatar_ng_2026_sec1_2_leading_lt_one",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "CITED"
+    },
+    {
+      "name": "best_seven_upper",
+      "doc": "strict upper half of the degree-seven best-bound enclosure; lower cover remains separate.",
+      "line": 1601,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.best_seven_upper",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.dlmf_19_8_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED-FROM-CITED"
+    },
+    {
+      "name": "best_eight_upper",
+      "doc": "strict upper half of the degree-eight best-bound enclosure; lower cover remains separate.",
+      "line": 1606,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.best_eight_upper",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.dlmf_19_8_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [],
+      "status": "PROVED-FROM-CITED"
+    },
+    {
+      "name": "finite_green_conformal_invariance_given_jordan",
+      "doc": "historical conditional Green coverage from disk coordinates; the original is independently proved without this premise.",
+      "line": 1611,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.finite_green_conformal_invariance_given_jordan",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [
+        "SmaleRate.Background.JordanCurveFact"
+      ],
+      "status": "PROVED-GIVEN SmaleRate.Background.JordanCurveFact"
+    },
+    {
+      "name": "capacity_exterior_upper_given_coefficient",
+      "doc": "upper half of the concrete capacity formula; the original equality remains open.",
+      "line": 1624,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.capacity_exterior_upper_given_coefficient",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [
+        "SmaleRate.Background.CoefficientUpperFact"
+      ],
+      "status": "PROVED-GIVEN SmaleRate.Background.CoefficientUpperFact"
+    },
+    {
+      "name": "range_7_best_improvement_given_background",
+      "doc": "degree-seven comparison with explicit main-theorem premises; original unconditional row remains open.",
+      "line": 1635,
+      "direct_cited_input": null,
+      "qualified_name": "SmaleRate.Paper.range_7_best_improvement_given_background",
+      "file": "SmaleRate/Paper/Statements.lean",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "SmaleRate.Cited.betsakos_2013",
+        "SmaleRate.Cited.dlmf_19_8_5",
+        "SmaleRate.Cited.dlmf_19_9_5",
+        "propext"
+      ],
+      "checks": [],
+      "background_facts": [
+        "SmaleRate.Background.CoefficientUpperFact",
+        "SmaleRate.Background.JordanCurveFact"
+      ],
+      "status": "PROVED-GIVEN SmaleRate.Background.CoefficientUpperFact, SmaleRate.Background.JordanCurveFact"
+    }
+  ],
+  "computer_checks": [],
+  "background_facts": [
+    {
+      "name": "SmaleRate.Background.JordanCurveFact",
+      "doc": "NAMED HYPOTHESIS, NOT AN AXIOM. Jordan\u2013Schoenflies topology. For a bounded domain with a continuous injective circle frontier, the interior is simply connected and the exterior of its closure is connected. Both clauses are needed: the second supports the constructed exterior E_y; the first feeds the separately proved analytic RMT. Every conditional result must bind this proposition explicitly and report PROVED GIVEN it. The paper's E_y construction is not part of this universal background fact.",
+      "kind": "background",
+      "status": "NOT-FORMALIZED"
+    },
+    {
+      "name": "SmaleRate.Background.CoefficientUpperFact",
+      "doc": "NAMED HYPOTHESIS, NOT AN AXIOM. Upper half of the continuum leading-coefficient formula, in transfinite-diameter notation: Ransford5.2.3 / Corollary5.2.2 AND Fekete\u2013Szeg\u01515.5.2. This remains an explicit hypothesis throughout. The application to E_y, its concrete coefficient and the scalar bound remain proofs.",
+      "kind": "background",
+      "status": "NOT-FORMALIZED"
+    }
+  ],
+  "not_formalized": [
+    {
+      "name": "NgreenGeneral",
+      "kind": "out of scope",
+      "reason": "the general potential-theoretic Green theory for arbitrary irregular domains is not formalized here. Concrete classical Jordan-domain instances have OPEN typed rows; they are not the general theorem.",
+      "status": "NOT-FORMALIZED"
+    },
+    {
+      "name": "NdubininGeneral",
+      "kind": "out of scope",
+      "reason": "Dubinin's general spherical meromorphic inequality with a complete multiplicity-counted pole fiber is not formalized. Its polynomial specialization has an OPEN row; no general result is imported.",
+      "status": "NOT-FORMALIZED"
+    },
+    {
+      "name": "NcapacityPotential",
+      "kind": "absorbed boundary",
+      "reason": "potential-theoretic capacity is not defined. Fekete\u2013Szeg\u0151 is absorbed into the TD coefficient boundary, which must cite Ransford5.2.3 / Cor5.2.2 AND5.5.2. No theorem is proved by the alias.",
+      "status": "NOT-FORMALIZED"
+    }
+  ]
+}

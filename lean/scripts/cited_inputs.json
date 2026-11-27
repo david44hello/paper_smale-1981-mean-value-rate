@@ -1,0 +1,35 @@
+{
+  "version": "1.00",
+  "inputs": [
+    {
+      "name": "SmaleRate.Cited.dlmf_19_9_5",
+      "source": "NIST DLMF 19.9.5 (https://dlmf.nist.gov/19.9.E5); definitions 19.2.4, 19.2.8, 19.2.9",
+      "review": "Verified against NIST DLMF 19.9.5",
+      "status": "refereed"
+    },
+    {
+      "name": "SmaleRate.Cited.dlmf_19_8_5",
+      "source": "NIST DLMF 19.8.5 (https://dlmf.nist.gov/19.8.E5); AGM 19.8.1 and elliptic integral definitions",
+      "review": "Verified against NIST DLMF 19.8.5",
+      "status": "refereed"
+    },
+    {
+      "name": "SmaleRate.Cited.betsakos_2013",
+      "source": "D. Betsakos, J. Aust. Math. Soc. 94 (2013), 145-157, Theorem 1.1, p. 146 (inequality only)",
+      "review": "Verified against published Theorem 1.1",
+      "status": "refereed"
+    },
+    {
+      "name": "SmaleRate.Cited.jatar_ng_2026_theorem1_v",
+      "source": "A. Jatar and T. W. Ng, arXiv:2608.27047v1 (27 August 2026), Theorem 1(v), Section 1.2 (auxiliary retired rows only)",
+      "review": "Verified against arXiv:2608.27047v1 Section 1.2; unused by any printed v1.00 claim",
+      "status": "UNREFEREED"
+    },
+    {
+      "name": "SmaleRate.Cited.jatar_ng_2026_sec1_2_leading_lt_one",
+      "source": "A. Jatar and T. W. Ng, arXiv:2608.27047v1 (27 August 2026), Section 1.2 observation (auxiliary retired rows only)",
+      "review": "Verified against arXiv:2608.27047v1 Section 1.2; unused by any printed v1.00 claim",
+      "status": "UNREFEREED"
+    }
+  ]
+}

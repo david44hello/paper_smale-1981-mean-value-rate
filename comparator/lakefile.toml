@@ -1,0 +1,22 @@
+# SmaleRateLean — Lean 4 formalization.
+# Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
+name = "SmaleRateLean"
+version = "0.1.0"
+defaultTargets = ["SmaleRate"]
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4.git"
+rev = "v4.35.0"
+
+[[lean_lib]]
+name = "SmaleRate"
+globs = ["SmaleRate", "SmaleRate.+"]
+leanOptions = { autoImplicit = false, relaxedAutoImplicit = false }
+weakLeanArgs = ["-j1"]
+
+[[lean_lib]]
+name = "Smale"
+globs = ["Smale.+"]
+leanOptions = { autoImplicit = false, relaxedAutoImplicit = false }
+weakLeanArgs = ["-j1"]
