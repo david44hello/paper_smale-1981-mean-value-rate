@@ -1,5 +1,7 @@
 # How fast Smale's mean value constants (1981) approach 4
 
+The paper: https://doi.org/10.5281/zenodo.24288566
+
 What is in this repository:
 
 - [lean/](lean/) - the Lean 4 formalization of the paper. Its README says what is proved, what it takes as given, and how to verify it.
