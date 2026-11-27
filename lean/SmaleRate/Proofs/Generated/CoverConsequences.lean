@@ -1,9 +1,13 @@
 /- SmaleRate — rational interval-cover certificate.
 Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE. -/
-import SmaleRate.Proofs.Generated.D7Cover
-import SmaleRate.Proofs.Generated.D8Cover
-import SmaleRate.Proofs.SevenAndRange
-import SmaleRate.Proofs.TableTargets
+module
+
+public import SmaleRate.Proofs.Generated.D7Cover
+public import SmaleRate.Proofs.Generated.D8Cover
+public import SmaleRate.Proofs.SevenAndRange
+public import SmaleRate.Proofs.TableTargets
+
+@[expose] public section
 
 noncomputable section
 namespace SmaleRate.Proofs

@@ -2,11 +2,17 @@
 SmaleRate — comparator challenge statements (proof bodies left open).
 Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
 -/
-import SmaleRate.Defs.Basic
-import SmaleRate.Defs.AnalyticBackground
-import SmaleRate.Cited.Approved
-import SmaleRate.Cited.JatarNg
-import SmaleRate.Defs.BackgroundFacts
+module
+
+public import SmaleRate.Defs.Basic
+public import SmaleRate.Defs.AnalyticBackground
+public import SmaleRate.Cited.Approved
+public import SmaleRate.Cited.JatarNg
+public import SmaleRate.Defs.BackgroundFacts
+
+set_option backward.proofsInPublic true
+
+@[expose] public section
 
 noncomputable section
 namespace SmaleRate.Paper

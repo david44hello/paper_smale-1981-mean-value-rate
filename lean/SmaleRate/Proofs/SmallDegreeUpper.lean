@@ -2,7 +2,13 @@
 SmaleRate — quadratic and cubic minimum-ratio upper bounds.
 Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
 -/
-import SmaleRate.Proofs.PolynomialBasics
+module
+
+public import SmaleRate.Proofs.PolynomialBasics
+
+set_option backward.proofsInPublic true
+
+@[expose] public section
 set_option autoImplicit false
 set_option relaxedAutoImplicit false
 

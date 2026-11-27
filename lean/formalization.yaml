@@ -1,0 +1,78 @@
+version: v0.4
+project:
+  name: "How fast Smale's mean value constants (1981) approach 4"
+  description: "Lean 4 formalization of the main upper bounds in \"How fast Smale's mean value constants (1981) approach 4\" (Dave Goel, v1.00): conditional Theorem 1.1 (K(d) <= (4/y) exp(-mu(y^(1/d)))) and Corollary 1.2 (K(d) < 4 - 4/log d for all d >= 8) given four explicit hypotheses (Betsakos 2013 Theorem 1.1, NIST DLMF 19.9.5, JordanCurveFact, and CoefficientUpperFact), conditional Proposition 3.4 asymptotic and explicit upper bounds given DLMF 19.9.5, and the unconditional finite Table 3 and majorant bounds for 8 <= d <= 20. All five registry targets use only Lean's three standard axioms. Across the full paper suite, standard lake comparator accepted 257 selected declarations while 34 declarations remain open (including unconditional forms of Theorem 1.1 and Corollary 1.2 and expanded-only Sections 4–5 bounds)."
+  authors:
+  - Dave Goel
+  license: Apache-2.0
+  responsible_maintainers:
+  - Dave Goel
+classification:
+  arxiv:
+  - math.CV
+  msc2020:
+  - 30C10
+  - 30C15
+  - 31A15
+sources:
+- title: "How fast Smale's mean value constants (1981) approach 4"
+  authors:
+  - Dave Goel
+  id: 10.5281/zenodo.24288566
+  type: paper
+  location: https://doi.org/10.5281/zenodo.24288566
+  relationship: formalizes
+- title: "How fast Smale's mean value constants (1981) approach 4 (expanded edition)"
+  authors:
+  - Dave Goel
+  id: 10.5281/zenodo.24288572
+  type: paper
+  location: https://doi.org/10.5281/zenodo.24288572
+  relationship: formalizes
+status:
+  scope: The five compared registry targets formalize conditional Theorem 1.1 and Corollary 1.2 (with all four cited/background assumptions—Betsakos 2013 Theorem 1.1, NIST DLMF 19.9.5, planar Jordan–Schoenflies topology JordanCurveFact, and exterior conformal-map coefficient bound CoefficientUpperFact—made explicit Prop hypotheses), conditional Proposition 3.4 limit and explicit upper bound (given DLMF 19.9.5 alone), and the unconditional majorant and Table 3 finite bounds for degrees 8 <= d <= 20. All five targets depend strictly on Lean's three standard axioms (zero custom axioms). Across the full repository suite (291 audited paper declarations), 257 selected statements passed standard lake comparator while 34 declarations remain open (including unconditional Theorem 1.1 and Corollary 1.2 and expanded-only Sections 4–5 bounds).
+  sorry_count: 0
+  sorry_in_definitions: 0
+  axioms:
+  - propext
+  - Quot.sound
+  - Classical.choice
+automation:
+  methods:
+  - method: agent
+    tool_setup: AI agents prepared and checked the Lean proof under the author’s direction.
+fidelity:
+  divergences: Theorem 1.1 and Corollary 1.2 are stated in explicitly conditional form binding the four cited/background inputs (Betsakos 2013 Theorem 1.1, NIST DLMF 19.9.5, JordanCurveFact, and CoefficientUpperFact) as explicit Prop hypotheses rather than custom axioms; Proposition 3.4 binds NIST DLMF 19.9.5 explicitly; the Table 3 and majorant target is unconditional. Unconditional forms of Theorem 1.1 and Corollary 1.2 and the expanded-only Sections 4–5 bounds remain open (34 open rows in the full paper suite).
+review:
+  status: agent-reviewed
+  reviewers:
+  - Google Gemini
+  notes: An independent Google Gemini check matched all five registry targets to the paper and verified the Lean proofs. Independent Lean verification of the five standard-axiom registry targets (conditional Theorem 1.1, Corollary 1.2, Proposition 3.4, and unconditional Table 3 degrees 8–20) passed clean build, kernel replay, and standard and paranoid lake comparator checks on top of the 257-target paper comparator check; 34 declarations remain open.
+alignment:
+  namespace: SmaleRate.Registry
+  statements:
+  - source: Theorem 1.1 (conditional)
+    lean: SmaleRate.Registry.thm_1_1_conditional
+    module: RegistryChallenge
+    status: proved
+    note: For every degree d >= 2 and y in (0, 1), K(d) <= (4/y) exp(-mu(y^(1/d))) given JordanCurveFact, CoefficientUpperFact, Betsakos2013Fact, and DLMF1995Fact.
+  - source: Corollary 1.2 (conditional)
+    lean: SmaleRate.Registry.cor_1_2_conditional
+    module: RegistryChallenge
+    status: proved
+    note: For every degree d >= 8, K(d) < 4 - 4/log d given JordanCurveFact, CoefficientUpperFact, Betsakos2013Fact, and DLMF1995Fact.
+  - source: Proposition 3.4 (limit, conditional)
+    lean: SmaleRate.Registry.prop_3_4_limit_conditional
+    module: RegistryChallenge
+    status: proved
+    note: (4 - B(d)) log d converges to 2 pi^2 as d -> infinity, given DLMF1995Fact alone.
+  - source: Proposition 3.4 (upper bound, conditional)
+    lean: SmaleRate.Registry.prop_3_4_upper_conditional
+    module: RegistryChallenge
+    status: proved
+    note: Explicit upper bound (4 - B(d)) log d <= 2 pi^2 / (1 - pi^2 / (d (log d)^2)) for all d >= 8, given DLMF1995Fact alone.
+  - source: Corollary 1.2 Steps 2–3 and Table 3 (unconditional)
+    lean: SmaleRate.Registry.cor_1_2_table3_and_majorant
+    module: RegistryChallenge
+    status: proved
+    note: Unconditional standard-axiom proof that majorant(d) <= target(d) for all d >= 8 and strictly majorant(d) < target(d) for all thirteen finite Table 3 degrees 8 <= d <= 20.

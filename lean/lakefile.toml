@@ -20,3 +20,13 @@ name = "Smale"
 globs = ["Smale.+"]
 leanOptions = { autoImplicit = false, relaxedAutoImplicit = false }
 weakLeanArgs = ["-j1"]
+
+[[lean_lib]]
+name = "RegistryChallenge"
+leanOptions = { autoImplicit = false, relaxedAutoImplicit = false }
+weakLeanArgs = ["-j1"]
+
+[[lean_lib]]
+name = "RegistrySolution"
+leanOptions = { autoImplicit = false, relaxedAutoImplicit = false }
+weakLeanArgs = ["-j1"]

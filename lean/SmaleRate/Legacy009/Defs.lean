@@ -9,7 +9,13 @@ Only the six definitions needed by ArgPrinciple/Lemma53 are retained, under an i
 The bridge to's nonzero-derivative class and actual quotient is a separate proof.
 Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
 -/
-import Mathlib
+module
+
+public import Mathlib
+
+set_option backward.proofsInPublic true
+
+@[expose] public section
 
 namespace SmaleRate.Legacy009
 open Polynomial Complex Metric

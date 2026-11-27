@@ -3,69 +3,75 @@ SmaleRate — formalized statements of the paper.
 Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
 Unproved rows remain explicit proof obligations listed in OPEN_ROWS.txt.
 -/
-import SmaleRate.Defs.Basic
-import SmaleRate.Defs.AnalyticBackground
-import SmaleRate.Cited.Approved
-import SmaleRate.Cited.JatarNg
-import SmaleRate.Proofs.PolynomialBasics
-import SmaleRate.Proofs.InverseBranch
-import SmaleRate.Proofs.InverseGeometry
-import SmaleRate.Proofs.Elementary
-import SmaleRate.Proofs.UnivalentDerivative
-import SmaleRate.Proofs.ScalarBasics
-import SmaleRate.Proofs.BackgroundDeductions
-import SmaleRate.Proofs.EllipticOrder
-import SmaleRate.Proofs.MuLimits
-import SmaleRate.Proofs.PoleCancellation
-import SmaleRate.Proofs.XiFull
-import SmaleRate.Proofs.ExteriorJordan
-import SmaleRate.Proofs.DiameterMonotonicity
-import SmaleRate.Proofs.MainBound
-import SmaleRate.Proofs.YBoundLimits
-import SmaleRate.Proofs.GeometryCoverage
-import SmaleRate.Proofs.TableCertificates
-import SmaleRate.Proofs.MuApproximation
-import SmaleRate.Proofs.MuAsymptotics
-import SmaleRate.Proofs.AGMAnalytic
-import SmaleRate.Proofs.DiameterDecreasing
-import SmaleRate.Proofs.YBoundDegreeLimit
-import SmaleRate.Proofs.PolynomialWitness
-import SmaleRate.Proofs.SelectedLength
-import SmaleRate.Proofs.AsymptoticTransport
-import SmaleRate.Proofs.EarlierComparisons
-import SmaleRate.Proofs.BetsakosDerivative
-import SmaleRate.Proofs.ScalarIdentities
-import SmaleRate.Proofs.YBoundStrict
-import SmaleRate.Proofs.BetsakosCoverage
-import SmaleRate.Proofs.FiniteBoxSoundness
-import SmaleRate.Proofs.KdMonotone
-import SmaleRate.Proofs.CraneNumbers
-import SmaleRate.Proofs.FigureDotBounds
-import SmaleRate.Proofs.TailConstants
-import SmaleRate.Proofs.BoundOrders
-import SmaleRate.Proofs.PrintedCases
-import SmaleRate.Proofs.SmallMultiple
-import SmaleRate.Proofs.JnNormalization
-import SmaleRate.Proofs.PrintedTailStrict
-import SmaleRate.Proofs.JnLimit
-import SmaleRate.Proofs.TableEarlier
-import SmaleRate.Proofs.SevenAndRange
-import SmaleRate.Proofs.DiskGreen
-import SmaleRate.Proofs.TableTargets
-import SmaleRate.Proofs.JnBoundary
-import SmaleRate.Proofs.GreenExistence
-import SmaleRate.Proofs.JnBoundaryValues
-import SmaleRate.Proofs.JatarContext
-import SmaleRate.Proofs.AGMCertificates
-import SmaleRate.Proofs.Public030Bridge
-import SmaleRate.Proofs.ExteriorGeometryConcrete
-import SmaleRate.Proofs.GreenConformal
-import SmaleRate.Proofs.CapacityUpperConcrete
-import SmaleRate.Proofs.SmallDegreesConcrete
-import SmaleRate.Proofs.GreenInversion
-import SmaleRate.Proofs.GreenConformalDirect
-import SmaleRate.Proofs.QuarticPolynomial
-import SmaleRate.Proofs.Generated.CoverConsequences
+module
+
+public import SmaleRate.Defs.Basic
+public import SmaleRate.Defs.AnalyticBackground
+public import SmaleRate.Cited.Approved
+public import SmaleRate.Cited.JatarNg
+public import SmaleRate.Proofs.PolynomialBasics
+public import SmaleRate.Proofs.InverseBranch
+public import SmaleRate.Proofs.InverseGeometry
+public import SmaleRate.Proofs.Elementary
+public import SmaleRate.Proofs.UnivalentDerivative
+public import SmaleRate.Proofs.ScalarBasics
+public import SmaleRate.Proofs.BackgroundDeductions
+public import SmaleRate.Proofs.EllipticOrder
+public import SmaleRate.Proofs.MuLimits
+public import SmaleRate.Proofs.PoleCancellation
+public import SmaleRate.Proofs.XiFull
+public import SmaleRate.Proofs.ExteriorJordan
+public import SmaleRate.Proofs.DiameterMonotonicity
+public import SmaleRate.Proofs.MainBound
+public import SmaleRate.Proofs.YBoundLimits
+public import SmaleRate.Proofs.GeometryCoverage
+public import SmaleRate.Proofs.TableCertificates
+public import SmaleRate.Proofs.MuApproximation
+public import SmaleRate.Proofs.MuAsymptotics
+public import SmaleRate.Proofs.AGMAnalytic
+public import SmaleRate.Proofs.DiameterDecreasing
+public import SmaleRate.Proofs.YBoundDegreeLimit
+public import SmaleRate.Proofs.PolynomialWitness
+public import SmaleRate.Proofs.SelectedLength
+public import SmaleRate.Proofs.AsymptoticTransport
+public import SmaleRate.Proofs.EarlierComparisons
+public import SmaleRate.Proofs.BetsakosDerivative
+public import SmaleRate.Proofs.ScalarIdentities
+public import SmaleRate.Proofs.YBoundStrict
+public import SmaleRate.Proofs.BetsakosCoverage
+public import SmaleRate.Proofs.FiniteBoxSoundness
+public import SmaleRate.Proofs.KdMonotone
+public import SmaleRate.Proofs.CraneNumbers
+public import SmaleRate.Proofs.FigureDotBounds
+public import SmaleRate.Proofs.TailConstants
+public import SmaleRate.Proofs.BoundOrders
+public import SmaleRate.Proofs.PrintedCases
+public import SmaleRate.Proofs.SmallMultiple
+public import SmaleRate.Proofs.JnNormalization
+public import SmaleRate.Proofs.PrintedTailStrict
+public import SmaleRate.Proofs.JnLimit
+public import SmaleRate.Proofs.TableEarlier
+public import SmaleRate.Proofs.SevenAndRange
+public import SmaleRate.Proofs.DiskGreen
+public import SmaleRate.Proofs.TableTargets
+public import SmaleRate.Proofs.JnBoundary
+public import SmaleRate.Proofs.GreenExistence
+public import SmaleRate.Proofs.JnBoundaryValues
+public import SmaleRate.Proofs.JatarContext
+public import SmaleRate.Proofs.AGMCertificates
+public import SmaleRate.Proofs.Public030Bridge
+public import SmaleRate.Proofs.ExteriorGeometryConcrete
+public import SmaleRate.Proofs.GreenConformal
+public import SmaleRate.Proofs.CapacityUpperConcrete
+public import SmaleRate.Proofs.SmallDegreesConcrete
+public import SmaleRate.Proofs.GreenInversion
+public import SmaleRate.Proofs.GreenConformalDirect
+public import SmaleRate.Proofs.QuarticPolynomial
+public import SmaleRate.Proofs.Generated.CoverConsequences
+
+set_option backward.proofsInPublic true
+
+@[expose] public section
 
 noncomputable section
 namespace SmaleRate.Paper

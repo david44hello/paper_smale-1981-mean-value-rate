@@ -1,8 +1,12 @@
 /- SmaleRate — rational interval-cover certificate.
 Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE. -/
-import SmaleRate.Proofs.DyadicAssembly
-import SmaleRate.Proofs.Generated.D8Chunk0029
-import SmaleRate.Proofs.Generated.D8Chunk0030
+module
+
+public import SmaleRate.Proofs.DyadicAssembly
+public import SmaleRate.Proofs.Generated.D8Chunk0029
+public import SmaleRate.Proofs.Generated.D8Chunk0030
+
+@[expose] public section
 
 noncomputable section
 namespace SmaleRate.Proofs

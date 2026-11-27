@@ -2,12 +2,22 @@
 SmaleRate — definitions.
 Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
 -/
-import Mathlib
+module
+
+public import Mathlib
+
+set_option backward.proofsInPublic true
+
+@[expose] public section
 
 noncomputable section
 namespace SmaleRate
 open Polynomial Filter Set
 open scoped Topology BigOperators
+
+/-- Explicit `Nat.AtLeastTwo` instances so `2` and `4` synthesize identically across modules. -/
+instance instAtLeastTwo2 : Nat.AtLeastTwo 2 := ⟨by decide⟩
+instance instAtLeastTwo4 : Nat.AtLeastTwo 4 := ⟨by decide⟩
 
 /-- The polynomial class of the Introduction, lines 27–35. -/
 def IsPd (degree : ℕ) (poly : ℂ[X]) : Prop :=

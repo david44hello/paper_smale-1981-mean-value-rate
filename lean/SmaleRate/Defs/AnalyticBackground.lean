@@ -3,7 +3,13 @@ SmaleRate — analytic background interfaces.
 Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
 These are concrete mathematical predicates, not asserted background facts or assumptions.
 -/
-import SmaleRate.Defs.Basic
+module
+
+public import SmaleRate.Defs.Basic
+
+set_option backward.proofsInPublic true
+
+@[expose] public section
 
 noncomputable section
 namespace SmaleRate

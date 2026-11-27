@@ -20,10 +20,21 @@ scan_sources() {
         final) final_skip=(--glob "!$statements") ;;
         *) echo "ERROR: scan mode must be work or final: $mode" >&2; return 2 ;;
     esac
+    # The independent registry challenge states five problems with deliberately open proofs.
+    # Scan every other token in that file under the same policy as the solution.
+    if [[ -f "$source_dir/RegistryChallenge.lean" ]]; then
+        local challenge="$source_dir/RegistryChallenge.lean"
+        if [[ $(grep -cE ' := by sorry$' "$challenge" || true) != 5 ]] ||
+           sed -E 's/ := by sorry$/ := by/' "$challenge" | rg -nw "$forbidden|axiom"; then
+            echo 'ERROR: unexpected registry challenge placeholder or forbidden construct.' >&2
+            failed=1
+        fi
+    fi
     # Deliberately conservative: forbidden words in comments/strings also fail.
     # Scan hidden/untracked Lean files too; dependencies, Git data, and root backups are excluded.
     (cd "$source_dir" && rg --hidden --no-ignore -n -w --glob '*.lean' \
-        --glob '!.lake/**' --glob '!.git/**' --glob '!versions/**' "${final_skip[@]}" "$forbidden" .) || status=$?
+        --glob '!.lake/**' --glob '!.git/**' --glob '!versions/**' --glob '!/RegistryChallenge.lean' \
+        "${final_skip[@]}" "$forbidden" .) || status=$?
     if (( status == 0 )); then
         echo 'ERROR: proof hole or forbidden proof construct in local Lean sources (including Cited).' >&2
         failed=1

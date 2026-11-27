@@ -4,9 +4,15 @@ Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LI
 Source: david44hello/paper_smale-mean-value-constant-equals-4, v2.70,
 commit abf7f9d748ec78e71535814167f77ff185143dbd. Original Smale modules are byte-identical.
 -/
-import Smale.P030.Contract
-import SmaleRate.Proofs.KdMonotone
-import SmaleRate.Proofs.PolynomialWitness
+module
+
+public import Smale.P030.Contract
+public import SmaleRate.Proofs.KdMonotone
+public import SmaleRate.Proofs.PolynomialWitness
+
+set_option backward.proofsInPublic true
+
+@[expose] public section
 set_option autoImplicit false
 set_option relaxedAutoImplicit false
 

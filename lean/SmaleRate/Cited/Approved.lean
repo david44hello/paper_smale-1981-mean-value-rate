@@ -3,7 +3,13 @@ SmaleRate — approved external inputs.
 Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
 No result proved by this paper is included here.
 -/
-import SmaleRate.Defs.Basic
+module
+
+public import SmaleRate.Defs.Basic
+
+set_option backward.proofsInPublic true
+
+@[expose] public section
 
 namespace SmaleRate.Cited
 open Set

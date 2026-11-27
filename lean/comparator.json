@@ -1,0 +1,17 @@
+{
+  "challenge_module": "RegistryChallenge",
+  "solution_module": "RegistrySolution",
+  "theorem_names": [
+    "SmaleRate.Registry.thm_1_1_conditional",
+    "SmaleRate.Registry.cor_1_2_conditional",
+    "SmaleRate.Registry.prop_3_4_limit_conditional",
+    "SmaleRate.Registry.prop_3_4_upper_conditional",
+    "SmaleRate.Registry.cor_1_2_table3_and_majorant"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": true
+}

@@ -9,7 +9,13 @@ Smale/Proofs/ArgPrinciple.lean — the argument principle and Rouché's theorem 
 `∮ f'/f = 2πi · #(zeros of f in |w - c| < R)`; and `|g| < |f|` on the circle gives the same number of zeros for
 `f + g` and `f`. The unit-circle forms (used for Lemmas 4.1, 4.2) are the case `c = 0`, `R = 1`; the small circles are
 used for the Hurwitz step of Lemma 5.3. -/
-import SmaleRate.Legacy009.Defs
+module
+
+public import SmaleRate.Legacy009.Defs
+
+set_option backward.proofsInPublic true
+
+@[expose] public section
 
 namespace SmaleRate.Legacy009
 

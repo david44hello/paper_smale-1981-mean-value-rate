@@ -2,7 +2,13 @@
 SmaleRate — inversion geometry of the exterior domain.
 Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
 -/
-import SmaleRate.Proofs.InverseGeometry
+module
+
+public import SmaleRate.Proofs.InverseGeometry
+
+set_option backward.proofsInPublic true
+
+@[expose] public section
 set_option autoImplicit false
 set_option relaxedAutoImplicit false
 

@@ -13,7 +13,13 @@ critical points of `p_ε` have product of modulus `1/((d+1)|ε|)`; and `m(p_ε) 
   critical point of `p_ε` lies there; for `|β| ≥ R`, `p_ε(β)/β = p(β)/β - p'(β)/(d+1)` is large (a polynomial of degree
   `d - 1 ≥ 1` in `β`).
 Also `sec1_m_attained` (`m(p)` is the least of finitely many values). -/
-import SmaleRate.Legacy009.ArgPrinciple
+module
+
+public import SmaleRate.Legacy009.ArgPrinciple
+
+set_option backward.proofsInPublic true
+
+@[expose] public section
 
 namespace SmaleRate.Legacy009
 

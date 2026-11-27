@@ -1,116 +1,120 @@
 /- SmaleRate — rational interval-cover certificate.
 Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE. -/
-import SmaleRate.Proofs.FiniteBoxSoundness
-import SmaleRate.Proofs.Generated.D8Tree0000
-import SmaleRate.Proofs.Generated.D8Tree0001
-import SmaleRate.Proofs.Generated.D8Tree0002
-import SmaleRate.Proofs.Generated.D8Tree0003
-import SmaleRate.Proofs.Generated.D8Tree0004
-import SmaleRate.Proofs.Generated.D8Tree0005
-import SmaleRate.Proofs.Generated.D8Tree0006
-import SmaleRate.Proofs.Generated.D8Tree0007
-import SmaleRate.Proofs.Generated.D8Tree0008
-import SmaleRate.Proofs.Generated.D8Tree0009
-import SmaleRate.Proofs.Generated.D8Tree0010
-import SmaleRate.Proofs.Generated.D8Tree0011
-import SmaleRate.Proofs.Generated.D8Tree0012
-import SmaleRate.Proofs.Generated.D8Tree0013
-import SmaleRate.Proofs.Generated.D8Tree0014
-import SmaleRate.Proofs.Generated.D8Tree0015
-import SmaleRate.Proofs.Generated.D8Tree0016
-import SmaleRate.Proofs.Generated.D8Tree0017
-import SmaleRate.Proofs.Generated.D8Tree0018
-import SmaleRate.Proofs.Generated.D8Tree0019
-import SmaleRate.Proofs.Generated.D8Tree0020
-import SmaleRate.Proofs.Generated.D8Tree0021
-import SmaleRate.Proofs.Generated.D8Tree0022
-import SmaleRate.Proofs.Generated.D8Tree0023
-import SmaleRate.Proofs.Generated.D8Tree0024
-import SmaleRate.Proofs.Generated.D8Tree0025
-import SmaleRate.Proofs.Generated.D8Tree0026
-import SmaleRate.Proofs.Generated.D8Tree0027
-import SmaleRate.Proofs.Generated.D8Tree0028
-import SmaleRate.Proofs.Generated.D8Tree0029
-import SmaleRate.Proofs.Generated.D8Tree0030
-import SmaleRate.Proofs.Generated.D8Tree0031
-import SmaleRate.Proofs.Generated.D8Tree0032
-import SmaleRate.Proofs.Generated.D8Tree0033
-import SmaleRate.Proofs.Generated.D8Tree0034
-import SmaleRate.Proofs.Generated.D8Tree0035
-import SmaleRate.Proofs.Generated.D8Tree0036
-import SmaleRate.Proofs.Generated.D8Tree0037
-import SmaleRate.Proofs.Generated.D8Tree0038
-import SmaleRate.Proofs.Generated.D8Tree0039
-import SmaleRate.Proofs.Generated.D8Tree0040
-import SmaleRate.Proofs.Generated.D8Tree0041
-import SmaleRate.Proofs.Generated.D8Tree0042
-import SmaleRate.Proofs.Generated.D8Tree0043
-import SmaleRate.Proofs.Generated.D8Tree0044
-import SmaleRate.Proofs.Generated.D8Tree0045
-import SmaleRate.Proofs.Generated.D8Tree0046
-import SmaleRate.Proofs.Generated.D8Tree0047
-import SmaleRate.Proofs.Generated.D8Tree0048
-import SmaleRate.Proofs.Generated.D8Tree0049
-import SmaleRate.Proofs.Generated.D8Tree0050
-import SmaleRate.Proofs.Generated.D8Tree0051
-import SmaleRate.Proofs.Generated.D8Tree0052
-import SmaleRate.Proofs.Generated.D8Tree0053
-import SmaleRate.Proofs.Generated.D8Tree0054
-import SmaleRate.Proofs.Generated.D8Tree0055
-import SmaleRate.Proofs.Generated.D8Tree0056
-import SmaleRate.Proofs.Generated.D8Tree0057
-import SmaleRate.Proofs.Generated.D8Tree0058
-import SmaleRate.Proofs.Generated.D8Tree0059
-import SmaleRate.Proofs.Generated.D8Tree0060
-import SmaleRate.Proofs.Generated.D8Tree0061
-import SmaleRate.Proofs.Generated.D8Tree0062
-import SmaleRate.Proofs.Generated.D8Tree0063
-import SmaleRate.Proofs.Generated.D8Tree0064
-import SmaleRate.Proofs.Generated.D8Tree0065
-import SmaleRate.Proofs.Generated.D8Tree0066
-import SmaleRate.Proofs.Generated.D8Tree0067
-import SmaleRate.Proofs.Generated.D8Tree0068
-import SmaleRate.Proofs.Generated.D8Tree0069
-import SmaleRate.Proofs.Generated.D8Tree0070
-import SmaleRate.Proofs.Generated.D8Tree0071
-import SmaleRate.Proofs.Generated.D8Tree0072
-import SmaleRate.Proofs.Generated.D8Tree0073
-import SmaleRate.Proofs.Generated.D8Tree0074
-import SmaleRate.Proofs.Generated.D8Tree0075
-import SmaleRate.Proofs.Generated.D8Tree0076
-import SmaleRate.Proofs.Generated.D8Tree0077
-import SmaleRate.Proofs.Generated.D8Tree0078
-import SmaleRate.Proofs.Generated.D8Tree0079
-import SmaleRate.Proofs.Generated.D8Tree0080
-import SmaleRate.Proofs.Generated.D8Tree0081
-import SmaleRate.Proofs.Generated.D8Tree0082
-import SmaleRate.Proofs.Generated.D8Tree0083
-import SmaleRate.Proofs.Generated.D8Tree0084
-import SmaleRate.Proofs.Generated.D8Tree0085
-import SmaleRate.Proofs.Generated.D8Tree0086
-import SmaleRate.Proofs.Generated.D8Tree0087
-import SmaleRate.Proofs.Generated.D8Tree0088
-import SmaleRate.Proofs.Generated.D8Tree0089
-import SmaleRate.Proofs.Generated.D8Tree0090
-import SmaleRate.Proofs.Generated.D8Tree0091
-import SmaleRate.Proofs.Generated.D8Tree0092
-import SmaleRate.Proofs.Generated.D8Tree0093
-import SmaleRate.Proofs.Generated.D8Tree0094
-import SmaleRate.Proofs.Generated.D8Tree0095
-import SmaleRate.Proofs.Generated.D8Tree0096
-import SmaleRate.Proofs.Generated.D8Tree0097
-import SmaleRate.Proofs.Generated.D8Tree0098
-import SmaleRate.Proofs.Generated.D8Tree0099
-import SmaleRate.Proofs.Generated.D8Tree0100
-import SmaleRate.Proofs.Generated.D8Tree0101
-import SmaleRate.Proofs.Generated.D8Tree0102
-import SmaleRate.Proofs.Generated.D8Tree0103
-import SmaleRate.Proofs.Generated.D8Tree0104
-import SmaleRate.Proofs.Generated.D8Tree0105
-import SmaleRate.Proofs.Generated.D8Tree0106
-import SmaleRate.Proofs.Generated.D8Tree0107
-import SmaleRate.Proofs.Generated.D8Tree0108
-import SmaleRate.Proofs.Generated.D8Tree0109
+module
+
+public import SmaleRate.Proofs.FiniteBoxSoundness
+public import SmaleRate.Proofs.Generated.D8Tree0000
+public import SmaleRate.Proofs.Generated.D8Tree0001
+public import SmaleRate.Proofs.Generated.D8Tree0002
+public import SmaleRate.Proofs.Generated.D8Tree0003
+public import SmaleRate.Proofs.Generated.D8Tree0004
+public import SmaleRate.Proofs.Generated.D8Tree0005
+public import SmaleRate.Proofs.Generated.D8Tree0006
+public import SmaleRate.Proofs.Generated.D8Tree0007
+public import SmaleRate.Proofs.Generated.D8Tree0008
+public import SmaleRate.Proofs.Generated.D8Tree0009
+public import SmaleRate.Proofs.Generated.D8Tree0010
+public import SmaleRate.Proofs.Generated.D8Tree0011
+public import SmaleRate.Proofs.Generated.D8Tree0012
+public import SmaleRate.Proofs.Generated.D8Tree0013
+public import SmaleRate.Proofs.Generated.D8Tree0014
+public import SmaleRate.Proofs.Generated.D8Tree0015
+public import SmaleRate.Proofs.Generated.D8Tree0016
+public import SmaleRate.Proofs.Generated.D8Tree0017
+public import SmaleRate.Proofs.Generated.D8Tree0018
+public import SmaleRate.Proofs.Generated.D8Tree0019
+public import SmaleRate.Proofs.Generated.D8Tree0020
+public import SmaleRate.Proofs.Generated.D8Tree0021
+public import SmaleRate.Proofs.Generated.D8Tree0022
+public import SmaleRate.Proofs.Generated.D8Tree0023
+public import SmaleRate.Proofs.Generated.D8Tree0024
+public import SmaleRate.Proofs.Generated.D8Tree0025
+public import SmaleRate.Proofs.Generated.D8Tree0026
+public import SmaleRate.Proofs.Generated.D8Tree0027
+public import SmaleRate.Proofs.Generated.D8Tree0028
+public import SmaleRate.Proofs.Generated.D8Tree0029
+public import SmaleRate.Proofs.Generated.D8Tree0030
+public import SmaleRate.Proofs.Generated.D8Tree0031
+public import SmaleRate.Proofs.Generated.D8Tree0032
+public import SmaleRate.Proofs.Generated.D8Tree0033
+public import SmaleRate.Proofs.Generated.D8Tree0034
+public import SmaleRate.Proofs.Generated.D8Tree0035
+public import SmaleRate.Proofs.Generated.D8Tree0036
+public import SmaleRate.Proofs.Generated.D8Tree0037
+public import SmaleRate.Proofs.Generated.D8Tree0038
+public import SmaleRate.Proofs.Generated.D8Tree0039
+public import SmaleRate.Proofs.Generated.D8Tree0040
+public import SmaleRate.Proofs.Generated.D8Tree0041
+public import SmaleRate.Proofs.Generated.D8Tree0042
+public import SmaleRate.Proofs.Generated.D8Tree0043
+public import SmaleRate.Proofs.Generated.D8Tree0044
+public import SmaleRate.Proofs.Generated.D8Tree0045
+public import SmaleRate.Proofs.Generated.D8Tree0046
+public import SmaleRate.Proofs.Generated.D8Tree0047
+public import SmaleRate.Proofs.Generated.D8Tree0048
+public import SmaleRate.Proofs.Generated.D8Tree0049
+public import SmaleRate.Proofs.Generated.D8Tree0050
+public import SmaleRate.Proofs.Generated.D8Tree0051
+public import SmaleRate.Proofs.Generated.D8Tree0052
+public import SmaleRate.Proofs.Generated.D8Tree0053
+public import SmaleRate.Proofs.Generated.D8Tree0054
+public import SmaleRate.Proofs.Generated.D8Tree0055
+public import SmaleRate.Proofs.Generated.D8Tree0056
+public import SmaleRate.Proofs.Generated.D8Tree0057
+public import SmaleRate.Proofs.Generated.D8Tree0058
+public import SmaleRate.Proofs.Generated.D8Tree0059
+public import SmaleRate.Proofs.Generated.D8Tree0060
+public import SmaleRate.Proofs.Generated.D8Tree0061
+public import SmaleRate.Proofs.Generated.D8Tree0062
+public import SmaleRate.Proofs.Generated.D8Tree0063
+public import SmaleRate.Proofs.Generated.D8Tree0064
+public import SmaleRate.Proofs.Generated.D8Tree0065
+public import SmaleRate.Proofs.Generated.D8Tree0066
+public import SmaleRate.Proofs.Generated.D8Tree0067
+public import SmaleRate.Proofs.Generated.D8Tree0068
+public import SmaleRate.Proofs.Generated.D8Tree0069
+public import SmaleRate.Proofs.Generated.D8Tree0070
+public import SmaleRate.Proofs.Generated.D8Tree0071
+public import SmaleRate.Proofs.Generated.D8Tree0072
+public import SmaleRate.Proofs.Generated.D8Tree0073
+public import SmaleRate.Proofs.Generated.D8Tree0074
+public import SmaleRate.Proofs.Generated.D8Tree0075
+public import SmaleRate.Proofs.Generated.D8Tree0076
+public import SmaleRate.Proofs.Generated.D8Tree0077
+public import SmaleRate.Proofs.Generated.D8Tree0078
+public import SmaleRate.Proofs.Generated.D8Tree0079
+public import SmaleRate.Proofs.Generated.D8Tree0080
+public import SmaleRate.Proofs.Generated.D8Tree0081
+public import SmaleRate.Proofs.Generated.D8Tree0082
+public import SmaleRate.Proofs.Generated.D8Tree0083
+public import SmaleRate.Proofs.Generated.D8Tree0084
+public import SmaleRate.Proofs.Generated.D8Tree0085
+public import SmaleRate.Proofs.Generated.D8Tree0086
+public import SmaleRate.Proofs.Generated.D8Tree0087
+public import SmaleRate.Proofs.Generated.D8Tree0088
+public import SmaleRate.Proofs.Generated.D8Tree0089
+public import SmaleRate.Proofs.Generated.D8Tree0090
+public import SmaleRate.Proofs.Generated.D8Tree0091
+public import SmaleRate.Proofs.Generated.D8Tree0092
+public import SmaleRate.Proofs.Generated.D8Tree0093
+public import SmaleRate.Proofs.Generated.D8Tree0094
+public import SmaleRate.Proofs.Generated.D8Tree0095
+public import SmaleRate.Proofs.Generated.D8Tree0096
+public import SmaleRate.Proofs.Generated.D8Tree0097
+public import SmaleRate.Proofs.Generated.D8Tree0098
+public import SmaleRate.Proofs.Generated.D8Tree0099
+public import SmaleRate.Proofs.Generated.D8Tree0100
+public import SmaleRate.Proofs.Generated.D8Tree0101
+public import SmaleRate.Proofs.Generated.D8Tree0102
+public import SmaleRate.Proofs.Generated.D8Tree0103
+public import SmaleRate.Proofs.Generated.D8Tree0104
+public import SmaleRate.Proofs.Generated.D8Tree0105
+public import SmaleRate.Proofs.Generated.D8Tree0106
+public import SmaleRate.Proofs.Generated.D8Tree0107
+public import SmaleRate.Proofs.Generated.D8Tree0108
+public import SmaleRate.Proofs.Generated.D8Tree0109
+
+@[expose] public section
 
 noncomputable section
 namespace SmaleRate.Proofs

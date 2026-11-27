@@ -49,6 +49,12 @@ The remaining three cited axioms in the repository's five-axiom comparator list 
 | `SmaleRate.Cited.jatar_ng_2026_theorem1_v` | Retired auxiliary declarations only (no printed `v1.00` claim) | A. Jatar and T. W. Ng, [arXiv:2608.27047v1](https://arxiv.org/abs/2608.27047v1) (unrefereed preprint), Theorem 1(v), Section 1.2. |
 | `SmaleRate.Cited.jatar_ng_2026_sec1_2_leading_lt_one` | Retired auxiliary declarations only (no printed `v1.00` claim) | A. Jatar and T. W. Ng, [arXiv:2608.27047v1](https://arxiv.org/abs/2608.27047v1) (unrefereed preprint), Section 1.2 observation. |
 
+## Proof architecture of the principal results
+
+- **Theorem 1.1 (`thm_1_1_conditional` / `thm_1_1_given_background`):** Given a normalized degree-`d` polynomial `p ∈ P_d` with least critical-value modulus `1`, construct the univalent inverse branch `f` on the unit disk (`InverseBranch.lean`), form the inverted exterior bounded Jordan domain `E_y` for `y ∈ (0, 1)` (`ExteriorGeometry.lean`, `ExteriorJordan.lean`), apply `JordanCurveFact` and the Riemann mapping theorem (`Vendor/RiemannMap.lean`, `RiemannBridge.lean`) to map the unit disk onto `E_y` sending `0 ↦ 0` and some `ξ` with `|ξ| ≥ y^{1/d}` to `-1` (`XiFull.lean`), bound the transfinite diameter `d(E_y) ≤ 1 / (y S(p))` via `CoefficientUpperFact` (`CapacityUpper.lean`), and combine with `Betsakos2013Fact` and the monotonicity of `μ` from `DLMF1995Fact` (`MainBound.lean`, `EllipticOrder.lean`).
+- **Corollary 1.2 (`cor_1_2_conditional` / `cor_1_2_given_background` and `cor_1_2_table3_and_majorant`):** Specialize Theorem 1.1 at `y = exp(-L(d))` with `L(d) = 1 / (4 log d)` (`SelectedLength.lean`), bound `β(d, L(d)) < M(d)` using `DLMF1995Fact` (`Elementary.lean`), prove `M(d) < 4 - 4 / log d` unconditionally for all thirteen finite degrees `8 ≤ d ≤ 20` via kernel-checked rational Taylor/logarithm/`π` enclosures (`Elementary.lean`, `TableCertificates.lean`), and prove `M(d) ≤ 4 - 4 / log d` analytically for all `d ≥ 21` (`TailConstants.lean`, `Elementary.lean`).
+- **Proposition 3.4 (`prop_3_4_limit_conditional`, `prop_3_4_upper_conditional`):** Bound `(4 - B(d)) log d` from above and below using the two-sided `DLMF1995Fact` estimates on `μ`, evaluating at `L = π^2 / (2 (log d)^2)` for the lower bound and optimizing over `L ∈ (0, d)` for the upper bound (`Elementary.lean`).
+
 ## Proof route differences
 
 Where the Lean formalization takes a different route from the printed exposition:
@@ -60,7 +66,15 @@ Where the Lean formalization takes a different route from the printed exposition
 
 ## Verification of this release
 
-All checks below ran on the exact `.lean`, `comparator/`, and audit files of this release:
+### Palomar registry package (`v1.01`, five standard-axiom targets)
+
+- **Standalone registry interface:** `lean/RegistryChallenge.lean` (`202` lines, `9,423` bytes, narrow allowlisted Mathlib imports, five compared targets in `SmaleRate.Registry`: `thm_1_1_conditional`, `cor_1_2_conditional`, `prop_3_4_limit_conditional`, `prop_3_4_upper_conditional`, and `cor_1_2_table3_and_majorant`) compared against `lean/RegistrySolution.lean` (`25` transitive local modules, zero `SmaleRate.Cited.*` imports, zero custom axioms, zero `Generated/` chunk imports) under `lean/comparator.json` (`permitted_axioms`: `propext`, `Quot.sound`, `Classical.choice` only; `enable_nanoda: true`).
+- **Axiom check (`#print axioms`):** All five `SmaleRate.Registry.*` declarations depend strictly on `[propext, Classical.choice, Quot.sound]`.
+- **Sandboxed `lake comparator --config=comparator.json`:** Both standard mode (`nanoda` + Lean default kernel) and paranoid mode (`--paranoid`: all six kernels — `nanoda`, Lean paranoid, `lean4lean` `64,098` declarations, `con-leche --verified` `64,101` declarations, `con-ron --verified` `64,101` declarations, and Lean default) accept the solution (`Your solution is okay!`).
+
+### Full paper suite (`v1.00`, 257 selected statements and 34 `OPEN` rows)
+
+All checks below ran on the `v1.00` paper release (`98c749c3`, tag `v1.00`, 291 audited paper declarations: 160 `PROVED`, 60 `PROVED-FROM-CITED`, 32 `PROVED-GIVEN`, 5 `CITED`, 34 `OPEN`); `v1.01` ports all 370 `.lean` files to Lean 4's `module` header system without altering any paper theorem statement:
 
 - **Clean cold build from empty (`./scripts/check.sh --final`, Mathlib cached):** **PASS** (`rc=0`, `4h46m04s`, single-thread peak RSS `8.09 GB`, `SmaleRate/Paper/Statements.lean` `7.71 GB`, heaviest interval-cover chunk modules `8.08 GB`, `367/367` modules built, `AUDIT.md` regenerated with zero diff, only the 34 listed `OPEN` placeholders present).
 - **Per-module kernel `.olean` replay (`leanchecker` across all 367 modules):** **PASS** (`rc=0`, `366` modules passed, `1` empty parent module `SmaleRate` verified to contain 0 constants, `0` failures, total `6,122.04 s`, peak RSS `7.19 GB`).

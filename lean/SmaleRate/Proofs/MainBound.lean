@@ -1,14 +1,20 @@
 /-
 Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
 -/
-import SmaleRate.Proofs.CapacityUpper
-import SmaleRate.Proofs.BackgroundDeductions
-import SmaleRate.Proofs.XiFull
-import SmaleRate.Proofs.PolynomialBasics
-import SmaleRate.Proofs.InverseBranch
-import SmaleRate.Proofs.ScalarBasics
-import SmaleRate.Proofs.MuLimits
-import SmaleRate.Proofs.DiameterMonotonicity
+module
+
+public import SmaleRate.Proofs.CapacityUpper
+public import SmaleRate.Proofs.BackgroundDeductions
+public import SmaleRate.Proofs.XiFull
+public import SmaleRate.Proofs.PolynomialBasics
+public import SmaleRate.Proofs.InverseBranch
+public import SmaleRate.Proofs.ScalarBasics
+public import SmaleRate.Proofs.MuLimits
+public import SmaleRate.Proofs.DiameterMonotonicity
+
+set_option backward.proofsInPublic true
+
+@[expose] public section
 
 noncomputable section
 namespace SmaleRate.Proofs

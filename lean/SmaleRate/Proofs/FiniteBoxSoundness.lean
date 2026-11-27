@@ -1,8 +1,14 @@
 /-
 Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
 -/
-import SmaleRate.Defs.AnalyticBackground
-import SmaleRate.Proofs.MuLimits
+module
+
+public import SmaleRate.Defs.AnalyticBackground
+public import SmaleRate.Proofs.MuLimits
+
+set_option backward.proofsInPublic true
+
+@[expose] public section
 
 noncomputable section
 namespace SmaleRate.Proofs

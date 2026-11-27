@@ -2,7 +2,13 @@
 SmaleRate — boundary obstruction at a maximal univalent radius.
 Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
 -/
-import SmaleRate.Proofs.JnRadius
+module
+
+public import SmaleRate.Proofs.JnRadius
+
+set_option backward.proofsInPublic true
+
+@[expose] public section
 set_option autoImplicit false
 set_option relaxedAutoImplicit false
 

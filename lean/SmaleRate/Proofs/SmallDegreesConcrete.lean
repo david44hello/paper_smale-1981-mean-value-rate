@@ -2,8 +2,14 @@
 SmaleRate — exact degree-two and degree-three constants.
 Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
 -/
-import SmaleRate.Proofs.BinomialWitness
-import SmaleRate.Proofs.SmallDegreeUpper
+module
+
+public import SmaleRate.Proofs.BinomialWitness
+public import SmaleRate.Proofs.SmallDegreeUpper
+
+set_option backward.proofsInPublic true
+
+@[expose] public section
 set_option autoImplicit false
 set_option relaxedAutoImplicit false
 

@@ -27,7 +27,13 @@ THIS IS A MODIFIED COPY. Every difference from that commit:
     is now `exists_bijOn_unitBall_map_eq_zero_of_riemannData`. The original statement `exists_bijOn_unitBall_map_eq_zero`
     follows from it and the new `riemannData_of_isSimplyConnected`, at the end of the file.
 -/
-import Mathlib
+module
+
+public import Mathlib
+
+set_option backward.proofsInPublic true
+
+@[expose] public section
 
 /-
 Copyright (c) 2025 Yury Kudryashov. All rights reserved.

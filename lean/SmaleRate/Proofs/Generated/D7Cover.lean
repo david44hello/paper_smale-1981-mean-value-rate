@@ -1,49 +1,53 @@
 /- SmaleRate — rational interval-cover certificate.
 Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE. -/
-import SmaleRate.Proofs.FiniteBoxSoundness
-import SmaleRate.Proofs.Generated.D7Tree0000
-import SmaleRate.Proofs.Generated.D7Tree0001
-import SmaleRate.Proofs.Generated.D7Tree0002
-import SmaleRate.Proofs.Generated.D7Tree0003
-import SmaleRate.Proofs.Generated.D7Tree0004
-import SmaleRate.Proofs.Generated.D7Tree0005
-import SmaleRate.Proofs.Generated.D7Tree0006
-import SmaleRate.Proofs.Generated.D7Tree0007
-import SmaleRate.Proofs.Generated.D7Tree0008
-import SmaleRate.Proofs.Generated.D7Tree0009
-import SmaleRate.Proofs.Generated.D7Tree0010
-import SmaleRate.Proofs.Generated.D7Tree0011
-import SmaleRate.Proofs.Generated.D7Tree0012
-import SmaleRate.Proofs.Generated.D7Tree0013
-import SmaleRate.Proofs.Generated.D7Tree0014
-import SmaleRate.Proofs.Generated.D7Tree0015
-import SmaleRate.Proofs.Generated.D7Tree0016
-import SmaleRate.Proofs.Generated.D7Tree0017
-import SmaleRate.Proofs.Generated.D7Tree0018
-import SmaleRate.Proofs.Generated.D7Tree0019
-import SmaleRate.Proofs.Generated.D7Tree0020
-import SmaleRate.Proofs.Generated.D7Tree0021
-import SmaleRate.Proofs.Generated.D7Tree0022
-import SmaleRate.Proofs.Generated.D7Tree0023
-import SmaleRate.Proofs.Generated.D7Tree0024
-import SmaleRate.Proofs.Generated.D7Tree0025
-import SmaleRate.Proofs.Generated.D7Tree0026
-import SmaleRate.Proofs.Generated.D7Tree0027
-import SmaleRate.Proofs.Generated.D7Tree0028
-import SmaleRate.Proofs.Generated.D7Tree0029
-import SmaleRate.Proofs.Generated.D7Tree0030
-import SmaleRate.Proofs.Generated.D7Tree0031
-import SmaleRate.Proofs.Generated.D7Tree0032
-import SmaleRate.Proofs.Generated.D7Tree0033
-import SmaleRate.Proofs.Generated.D7Tree0034
-import SmaleRate.Proofs.Generated.D7Tree0035
-import SmaleRate.Proofs.Generated.D7Tree0036
-import SmaleRate.Proofs.Generated.D7Tree0037
-import SmaleRate.Proofs.Generated.D7Tree0038
-import SmaleRate.Proofs.Generated.D7Tree0039
-import SmaleRate.Proofs.Generated.D7Tree0040
-import SmaleRate.Proofs.Generated.D7Tree0041
-import SmaleRate.Proofs.Generated.D7Tree0042
+module
+
+public import SmaleRate.Proofs.FiniteBoxSoundness
+public import SmaleRate.Proofs.Generated.D7Tree0000
+public import SmaleRate.Proofs.Generated.D7Tree0001
+public import SmaleRate.Proofs.Generated.D7Tree0002
+public import SmaleRate.Proofs.Generated.D7Tree0003
+public import SmaleRate.Proofs.Generated.D7Tree0004
+public import SmaleRate.Proofs.Generated.D7Tree0005
+public import SmaleRate.Proofs.Generated.D7Tree0006
+public import SmaleRate.Proofs.Generated.D7Tree0007
+public import SmaleRate.Proofs.Generated.D7Tree0008
+public import SmaleRate.Proofs.Generated.D7Tree0009
+public import SmaleRate.Proofs.Generated.D7Tree0010
+public import SmaleRate.Proofs.Generated.D7Tree0011
+public import SmaleRate.Proofs.Generated.D7Tree0012
+public import SmaleRate.Proofs.Generated.D7Tree0013
+public import SmaleRate.Proofs.Generated.D7Tree0014
+public import SmaleRate.Proofs.Generated.D7Tree0015
+public import SmaleRate.Proofs.Generated.D7Tree0016
+public import SmaleRate.Proofs.Generated.D7Tree0017
+public import SmaleRate.Proofs.Generated.D7Tree0018
+public import SmaleRate.Proofs.Generated.D7Tree0019
+public import SmaleRate.Proofs.Generated.D7Tree0020
+public import SmaleRate.Proofs.Generated.D7Tree0021
+public import SmaleRate.Proofs.Generated.D7Tree0022
+public import SmaleRate.Proofs.Generated.D7Tree0023
+public import SmaleRate.Proofs.Generated.D7Tree0024
+public import SmaleRate.Proofs.Generated.D7Tree0025
+public import SmaleRate.Proofs.Generated.D7Tree0026
+public import SmaleRate.Proofs.Generated.D7Tree0027
+public import SmaleRate.Proofs.Generated.D7Tree0028
+public import SmaleRate.Proofs.Generated.D7Tree0029
+public import SmaleRate.Proofs.Generated.D7Tree0030
+public import SmaleRate.Proofs.Generated.D7Tree0031
+public import SmaleRate.Proofs.Generated.D7Tree0032
+public import SmaleRate.Proofs.Generated.D7Tree0033
+public import SmaleRate.Proofs.Generated.D7Tree0034
+public import SmaleRate.Proofs.Generated.D7Tree0035
+public import SmaleRate.Proofs.Generated.D7Tree0036
+public import SmaleRate.Proofs.Generated.D7Tree0037
+public import SmaleRate.Proofs.Generated.D7Tree0038
+public import SmaleRate.Proofs.Generated.D7Tree0039
+public import SmaleRate.Proofs.Generated.D7Tree0040
+public import SmaleRate.Proofs.Generated.D7Tree0041
+public import SmaleRate.Proofs.Generated.D7Tree0042
+
+@[expose] public section
 
 noncomputable section
 namespace SmaleRate.Proofs

@@ -2,7 +2,13 @@
 SmaleRate — sharp three-root quartic selection.
 Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
 -/
-import SmaleRate.Defs.Basic
+module
+
+public import SmaleRate.Defs.Basic
+
+set_option backward.proofsInPublic true
+
+@[expose] public section
 set_option autoImplicit false
 set_option relaxedAutoImplicit false
 

@@ -2,8 +2,14 @@
 SmaleRate — Jordan geometry of the inverted exterior.
 Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
 -/
-import SmaleRate.Proofs.ExteriorGeometry
-import SmaleRate.Defs.BackgroundFacts
+module
+
+public import SmaleRate.Proofs.ExteriorGeometry
+public import SmaleRate.Defs.BackgroundFacts
+
+set_option backward.proofsInPublic true
+
+@[expose] public section
 set_option autoImplicit false
 set_option relaxedAutoImplicit false
 
